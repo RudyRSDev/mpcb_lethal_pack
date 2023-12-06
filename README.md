@@ -5,7 +5,7 @@ Use [r2ModeManager](https://thunderstore.io/package/ebkr/r2modman/)
 - Press `Import new profile`
 - Press `From code`
 
-Current Code: `018c3e3e-73ee-0b76-12af-00ad91451914`
+Current Code: `018c3e77-0dea-0b3a-47b3-b8a72891ef80`
 
 Useful Keybinds
 - `F1`, `F2`, `F3` for emotes
