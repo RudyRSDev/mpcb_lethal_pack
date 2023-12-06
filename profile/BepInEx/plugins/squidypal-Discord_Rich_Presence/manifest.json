@@ -1,0 +1,7 @@
+{
+    "name": "Discord_Rich_Presence",
+    "version_number": "1.1.2",
+    "website_url": "https://github.com/squidypal/LethalCompanyRichPresence",
+    "description": "Adds Discord Rich Presence. Works with bepinex now thanks to bepis' ml loader",
+    "dependencies": ["BepInEx-BepInEx_MLLoader-2.1.0"]
+}

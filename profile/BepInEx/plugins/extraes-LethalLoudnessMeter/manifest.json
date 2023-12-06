@@ -1,0 +1,8 @@
+{
+  "name": "LethalLoudnessMeter",
+  "author": "extraes",
+  "version_number": "1.0.1",
+  "website_url": "https://media.discordapp.net/stickers/860203795376242708.png",
+  "description": "Displays a meter displaying how loud you (or things close to you) are being",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}

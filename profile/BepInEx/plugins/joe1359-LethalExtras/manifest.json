@@ -1,0 +1,11 @@
+{
+    "name": "LethalExtras",
+    "version_number": "1.0.4",
+    "website_url": "",
+    "description": "Adds 5 scrap items, 4 from Voices of the Void. 1 Unlockable",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Evaisa-HookGenPatcher-0.0.5",
+        "Evaisa-LethalLib-0.4.5"
+    ]
+}
