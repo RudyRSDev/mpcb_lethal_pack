@@ -6,7 +6,7 @@ Terminal Api provides a nice a easy way to add and modify terminal keywords.
 It allows you to create and add them whenever you want in your code as it 
 will automatically add the keywords when it is safe to do so.
 
-See [Test Plugin](https://github.com/NotAtomicBomb/TerminalApi/blob/main/TestPlugin/Plugin.cs) [Time Command](https://github.com/NotAtomicBomb/TimeCommand/blob/main/TimeTerminalCommand/Plugin.cs/) mod for an example case of this api.
+See [Test Plugin](https://github.com/NotAtomicBomb/TerminalApi/blob/main/TestPlugin/Plugin.cs) and [Time Command](https://github.com/NotAtomicBomb/TimeCommand/blob/main/TimeTerminalCommand/Plugin.cs/) mod for an example case of this api.
 
 ## Installation
 
@@ -57,6 +57,7 @@ Here is a list of them:
 - `TerminalBeganUsing` - Runs after begins using.
 - `TerminalExited` - Runs when the player exits the terminal.
 - `TerminalParsedSentence` - Runs when the player sends a command.
+- `TerminalTextChanged` -  Runs when the player types in the terminal.
 
 For more information please check [Test Plugin](https://github.com/NotAtomicBomb/TerminalApi/blob/main/TestPlugin/Plugin.cs).
 
