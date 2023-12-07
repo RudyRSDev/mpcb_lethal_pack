@@ -20,6 +20,10 @@ If you are installing this manually, do the following
 <details>
 <summary>Click to expand</summary>
 
+### 1.0.3
+Added a keybind option to override the visibility of the clock.  
+Can be set to toggle or hold mode.
+
 ### 1.0.2
 Allow dark leading zero to be configured.  
 Better compatibility with 24 hour time and mods that change the ship auto leave time like [LaterNights](https://thunderstore.io/c/lethal-company/p/ATK/LaterNights/).  

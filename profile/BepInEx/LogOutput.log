@@ -40,7 +40,7 @@
 [Info   :atg.FnafPowerOutage] Starting Fnaf Power Outage
 [Info   :atg.FnafPowerOutage] C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\atg-FnafPowerOutage\toreadormarch
 [Info   :atg.FnafPowerOutage] FnafPowerOutage Mod is loaded
-[Info   :   BepInEx] Loading [Terminal Api 1.2.0]
+[Info   :   BepInEx] Loading [Terminal Api 1.3.0]
 [Info   :Terminal Api] Plugin TerminalApi is loaded!
 [Info   :   BepInEx] Loading [Terminal Clock 1.0.5]
 [Info   :Terminal Clock] Plugin Terminal Clock is loaded!
@@ -204,8 +204,11 @@
 [Info   :lethalextras] Plugin LethalExtras is loaded!
 [Info   :lethalextras] Loading item: Blahaj
 [Info   :lethalextras] Loading item: Red Argemia Plush
+[Info   :lethalextras] Adding to scrap pool: Red Argemia Plush
 [Info   :lethalextras] Loading item: Blue Argemia Plush
+[Info   :lethalextras] Adding to scrap pool: Blue Argemia Plush
 [Info   :lethalextras] Loading item: Green Argemia Plush
+[Info   :lethalextras] Adding to scrap pool: Green Argemia Plush
 [Info   :lethalextras] Loading item: Maxwell
 [Info   :lethalextras] Adding to scrap pool: Maxwell
 [Info   :lethalextras] Loading unlockable: Medstation
@@ -406,8 +409,8 @@
 [Info   : Unity Log] Renamed TempFile1 to LCSaveFile1
 [Info   : Unity Log] Renamed TempFile2 to LCSaveFile2
 [Info   : Unity Log] Renamed TempFile3 to LCSaveFile3
-[Info   : Unity Log] [Dissonance:Core] (19:45:38.190) DissonanceComms: Loading default playback prefab
-[Info   : Unity Log] [Dissonance:Core] (19:45:38.207) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] [Dissonance:Core] (21:04:22.785) DissonanceComms: Loading default playback prefab
+[Info   : Unity Log] [Dissonance:Core] (21:04:22.803) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
@@ -424,12 +427,12 @@
 [Info   : Unity Log] are we in a server?: True
 [Message:    LC_API] server pre-setup success
 [Info   : Unity Log] Lobby has been created
-[Info   : Unity Log] [Dissonance:Network] (19:45:46.367) NfgoServer: Created server with SessionId:216902300
-[Info   : Unity Log] [Dissonance:Network] (19:45:46.369) NfgoServer: Connected
-[Info   : Unity Log] [Dissonance:Recording] (19:45:46.410) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
-[Info   : Unity Log] [Dissonance:Network] (19:45:46.426) ConnectionNegotiator`1: Received handshake response from server, joined session '216902300'
-[Info   : Unity Log] [Dissonance:Network] (19:45:49.315) NfgoClient: Disconnected
-[Info   : Unity Log] [Dissonance:Network] (19:45:49.320) NfgoServer: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (21:04:28.908) NfgoServer: Created server with SessionId:1318250451
+[Info   : Unity Log] [Dissonance:Network] (21:04:28.910) NfgoServer: Connected
+[Info   : Unity Log] [Dissonance:Recording] (21:04:28.946) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
+[Info   : Unity Log] [Dissonance:Network] (21:04:28.962) ConnectionNegotiator`1: Received handshake response from server, joined session '1318250451'
+[Info   : Unity Log] [Dissonance:Network] (21:04:31.433) NfgoClient: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (21:04:31.437) NfgoServer: Disconnected
 [Info   : MoreItems] Maximum amount of items that can be saved set to 999.
 [Info   : LethalLib] Added Boomba to ExperimentationLevel with SpawnType [Default]
 [Info   : LethalLib] Added Boomba to AssuranceLevel with SpawnType [Default]
@@ -445,6 +448,9 @@
 [Info   : LethalLib] LethalThings registered item: Hämis Plush
 [Info   : LethalLib] LethalThings registered item: Dirty Arson Plush
 [Info   : LethalLib] LethalThings registered item: Maxwell
+[Info   : LethalLib] LethalExtras registered item: Red Argemia Plush
+[Info   : LethalLib] LethalExtras registered item: Blue Argemia Plush
+[Info   : LethalLib] LethalExtras registered item: Green Argemia Plush
 [Info   : LethalLib] LethalExtras registered item: Maxwell
 [Info   : LethalLib] LethalThings registered item: Rocket Launcher
 [Info   : LethalLib] LethalThings registered item: Toy Hammer
@@ -515,7 +521,7 @@
 [Info   : Unity Log] Global quality settings applied
 [Info   : Unity Log] # powered lights: 0
 [Info   :Quokka.MoreMonsters] Host Status: True
-[Info   : Unity Log] level id: 2
+[Info   : Unity Log] level id: 3
 [Info   : Unity Log] Changing level
 [Info   : Unity Log] Item sales percentages #0: 0
 [Info   : Unity Log] Item sales percentages #1: 0
@@ -537,12 +543,6 @@
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   : Unity Log] Placing scene object at saved position: Cupboard
-[Info   : Unity Log] Loading placed object position as: (4.82, 1.64, -12.15)
-[Info   : Unity Log] Saving placed position as: (4.82, 1.64, -12.15)
-[Info   : Unity Log] Placing scene object at saved position: Bunkbeds
-[Info   : Unity Log] Loading placed object position as: (9.40, 2.03, -11.54)
-[Info   : Unity Log] Saving placed position as: (9.40, 2.03, -11.54)
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
@@ -555,9 +555,10 @@
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   : Unity Log] Ship grabbable items list loaded. Count: 2
-[Info   : Unity Log] Setting scrap value for item: EggBeater(Clone): 35
-[Info   : Unity Log] Setting scrap value for item: BinFullOfBottles(Clone): 44
+[Info   : Unity Log] Ship grabbable items list loaded. Count: 6
+[Info   : Unity Log] Setting scrap value for item: ArsonPlush(Clone): 92
+[Info   : Unity Log] Setting scrap value for item: RedArgemiaPlush(Clone): 0
+[Info   : Unity Log] Setting scrap value for item: BinFullOfBottles(Clone): 7
 [Info   :LethalPosters] Patching Start in StartOfRound
 [Info   :LethalPosters] Patching the textures
 [Info   :ReservedItemSlotCore] Adding 3 Reserved Item slots to the inventory HUD. Previous inventory HUD size: 4
@@ -583,8 +584,8 @@
 [Info   : Unity Log] Item sales percentages #14: 0
 [Info   : Unity Log] Item sales percentages #15: 0
 [Info   : Unity Log] Item sales percentages #16: 0
-[Info   : Unity Log] Group credits: 50000
-[Info   : Unity Log] [Dissonance:Core] (19:45:50.813) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] Group credits: 391
+[Info   : Unity Log] [Dissonance:Core] (21:04:32.490) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
@@ -686,23 +687,39 @@ Stack trace:
 SpectateEnemy.Patches.HUDManager_Patches.Postfix (HUDManager __instance) (at <3702c743a6784b76aabe979c4ccd98ce>:IL_0006)
 (wrapper dynamic-method) HUDManager.DMD<HUDManager::Update>(HUDManager)
 
-[Info   : Unity Log] [Dissonance:Network] (19:45:51.066) NfgoServer: Created server with SessionId:1710781076
-[Info   : Unity Log] [Dissonance:Network] (19:45:51.067) NfgoServer: Connected
-[Info   : Unity Log] Item start falling position: (3.24, -0.02, -8.33)
+[Info   : Unity Log] [Dissonance:Network] (21:04:32.713) NfgoServer: Created server with SessionId:1547840122
+[Info   : Unity Log] [Dissonance:Network] (21:04:32.713) NfgoServer: Connected
+[Info   : Unity Log] Item start falling position: (3.00, 0.00, -6.13)
 [Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
 [Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\MoaningFar.mp3
-[Info   : Unity Log] Dropping item at rot: 90, 90, 0
-[Info   : Unity Log] Item start falling position: (-0.84, 0.26, -7.11)
+[Info   : Unity Log] Dropping item at rot: -90, 0, -90
+[Info   : Unity Log] Item start falling position: (3.41, 0.08, -5.91)
+[Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
+[Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\MoaningFar.mp3
+[Info   : Unity Log] Item start falling position: (4.02, 0.24, -13.96)
+[Info   : Unity Log] dropping item did not get raycast : RedArgemiaPlush(Clone)
+[Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
+[Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\MoaningFar.mp3
+[Info   : Unity Log] Dropping item at rot: 0, 90, 0
+[Info   : Unity Log] Item start falling position: (3.31, 0.26, -6.61)
 [Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
 [Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\MoaningFar.mp3
 [Info   : Unity Log] Dropping item at rot: -90, 90, 0
+[Info   : Unity Log] Item start falling position: (2.58, 0.03, -7.03)
+[Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
+[Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\MoaningFar.mp3
+[Info   : Unity Log] Item start falling position: (3.03, 1.07, -5.92)
+[Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
+[Info   :MetalPipeSFX.HornMoan] Loaded C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\MoaningFar.mp3
 [Info   : Unity Log] [HELMET_CAMERAS] Starting coroutine...
 [Info   : Unity Log] [HELMET_CAMERAS] 5 seconds for init mode... Please wait...
 [Info   : Unity Log] Taking control of player Player and enabling camera!
 [Info   : Unity Log] Starting voice tracking for player: RudySPG
-[Info   : Unity Log] [SS]: Failed to load saved suit. Perhaps it's locked? (THE MEXICAN)
+[Info   : Unity Log] [SS]: Successfully loaded saved suit. (BlueImposter)
 [Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
 [Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Has beta?: {hasBeta}
 [Info   : Unity Log] Has beta save data: True
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
@@ -738,354 +755,780 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
-[Info   : Unity Log] [Dissonance:Network] (19:45:51.375) ConnectionNegotiator`1: Received handshake response from server, joined session '1710781076'
-[Warning: Unity Log] [Dissonance:Recording] (19:45:51.376) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.201575)
-[Info   : Unity Log] [Dissonance:Recording] (19:45:51.386) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'Wave Link MicrophoneFX (Elgato Wave:3)')
+[Info   : Unity Log] [Dissonance:Network] (21:04:33.078) ConnectionNegotiator`1: Received handshake response from server, joined session '1547840122'
+[Warning: Unity Log] [Dissonance:Recording] (21:04:33.079) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.1801957)
+[Info   : Unity Log] [Dissonance:Recording] (21:04:33.085) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'Wave Link MicrophoneFX (Elgato Wave:3)')
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
 [Warning:    LC_API] Asking all other players for their mod list..
-[Info   : Unity Log] PLAYER OPENED MENU
 [Info   : Unity Log] [HELMET_CAMERAS] Ship camera founded...
 [Info   : Unity Log] [HELMET_CAMERAS] Monitors were changed...
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: True
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 6
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: False
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 0
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 0 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 0 ClientId: 0
-[Info   : Unity Log] Player joined w steamId: 76561199158783764
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] [FacepunchTransport] - Accepting connection from Steam user 0.
-[Info   : Unity Log] [Netcode] Client Connected
-[Info   : Unity Log] [FacepunchTransport] - Connected with Steam user 0.
-[Info   : Unity Log] Connection approval callback! Game version of client request: 40,76561199158783764
-[Info   : Unity Log] Joining client id: 1; Local/host client id: 0
-[Info   : Unity Log] Approved connection?: True. Connected players #: 1
-[Info   : Unity Log] Disapproval reason: 
-[Error  :  HarmonyX] Error while running static void LateCompany.Patches.ConnectionApproval_Patch::Postfix(Unity.Netcode.NetworkManager+ConnectionApprovalRequest request, Unity.Netcode.NetworkManager+ConnectionApprovalResponse response). Error: System.NullReferenceException: Object reference not set to an instance of an object
-  at LateCompany.Patches.ConnectionApproval_Patch.Postfix (Unity.Netcode.NetworkManager+ConnectionApprovalRequest request, Unity.Netcode.NetworkManager+ConnectionApprovalResponse response) [0x00019] in <0d035f3e82c441aaa8a0592016dc8fb1>:IL_0019 
-  at (wrapper dynamic-method) GameNetworkManager.DMD<GameNetworkManager::ConnectionApproval>(GameNetworkManager,Unity.Netcode.NetworkManager/ConnectionApprovalRequest,Unity.Netcode.NetworkManager/ConnectionApprovalResponse)
-[Info   : Unity Log] [Netcode] [Server-Side Client-Synchronization] NetworkObject serialization order:Push(Clone)GlobalEffectsSoundManagerPlayer (1)TimeAndWeatherLightSwitchContainerBunkbedsFileCabinetPlayersManager / HUDManagerStartGameLeverPropsHangarShipPlayer (3)EnvironmentPlayer (8)Player (4)Player (5)StorageClosetPlayer (6)RoundManagerBinFullOfBottles(Clone)StickyNoteItemServerItemHolderServerItemHolderServerItemHolderServerItemHolderTerminalPlayerPhysicsBoxShipBuildModePlayer (2)PlayerPhysicsBoxLocalItemHolderLocalItemHolderLocalItemHolderLocalItemHolderEggBeater(Clone)ClipboardManualPlayerPhysicsBoxPlayerPhysicsBoxPlayer (7)Player (10)Player (27)Player (12)Player (13)Player (14)Player (15)Player (16)Player (17)Player (28)Player (18)Player (20)Player (21)Player (22)Player (23)Player (24)Player (25)Player (26)Player (19)Player (9)Player (29)ChangableSuit(Clone)ChangableSuit(Clone)Player (31)ChangableSuit(Clone)ChangableSuit(Clone)ChangableSuit(Clone)ChangableSuit(Clone)ChangableSuit(Clone)Player (30)ChangableSuit(Clone)Player (11)ChangableSuit(Clone)ChangableSuit(Clone)ChangableSuit(Clone)ChangableSuit(Clone)ChangableSuit(Clone)ChangableSuit(Clone)ChangableSuit(Clone)Player
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: True
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 6
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: False
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 0
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 0 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 0 ClientId: 0
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] Holding interact
-[Info   : Unity Log] [SS]: Successfully saved current suit. (Facility Guard)
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   : Unity Log] Client connected callback in gamenetworkmanager
-[Info   : Unity Log] player connected
-[Info   : Unity Log] connected players #: 0
-[Info   : Unity Log] Connecting new player on host; clientId: 1
-[Warning: Unity Log] Player (1) is disabled! Netcode for GameObjects does not support disabled NetworkBehaviours! The PlayerControllerB component was skipped during ownership assignment!
-[Warning: Unity Log] Player (1) is disabled! Netcode for GameObjects does not support disabled NetworkBehaviours! The NfgoPlayer component was skipped during ownership assignment!
-[Info   : Unity Log] New player assigned object id: Player (1) (UnityEngine.GameObject)
-[Info   : Unity Log] NEW CLIENT JOINED THE SERVER!!; clientId: 1
-[Info   : Unity Log] New player: Player (1)
-[Info   : Unity Log] Connected players (joined clients) amount after connection: 1
-[Info   : Unity Log] This client is not the client who just joined. Our client id: 0; joining client id: 1
-[Info   : Unity Log] client id connecting: 1 ; their corresponding player object id: 1
-[Info   : Unity Log] Refreshing voice playback objects. Number of voice objects found: 0
-[Info   : Unity Log] Skipping player #2 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #3 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #4 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #5 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #6 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #7 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #8 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #9 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #10 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #11 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #12 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #13 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #14 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #15 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #16 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #17 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #18 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #19 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #20 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #21 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #22 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #23 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #24 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #25 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #26 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #27 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #28 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #29 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #30 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #31 as they are not controlled or dead
-[Info   : Unity Log] Was not able to access voice chat object for player #1; True; True
-[Info   : Unity Log] PLAYER OPENED MENU
-[Warning: Unity Log] [Netcode] Deferred messages were received for a trigger of type OnSpawn with key 0, but that trigger was not received within within 1 second(s).
-[Info   : Unity Log] Refreshing voice playback objects. Number of voice objects found: 0
-[Info   : Unity Log] Skipping player #2 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #3 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #4 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #5 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #6 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #7 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #8 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #9 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #10 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #11 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #12 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #13 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #14 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #15 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #16 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #17 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #18 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #19 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #20 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #21 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #22 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #23 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #24 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #25 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #26 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #27 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #28 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #29 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #30 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #31 as they are not controlled or dead
-[Info   : Unity Log] Was not able to access voice chat object for player #1; True; True
-[Info   : Unity Log] Syncing already-held objects on server
-[Info   : Unity Log] pocketed objects count: 0
-[Info   : Unity Log] held objects count: 0
-[Info   : Unity Log] Server: objects in ship: 5
-[Info   : Unity Log] Server: placeableObject #0: StorageCloset
-[Info   : Unity Log] Server: position #0: (4.82, 1.64, -12.15)
-[Info   : Unity Log] Server: placeableObject #1: FileCabinet
-[Info   : Unity Log] Server: position #1: (0.00, 0.00, 0.00)
-[Info   : Unity Log] Server: placeableObject #2: LightSwitchContainer
-[Info   : Unity Log] Server: position #2: (0.00, 0.00, 0.00)
-[Info   : Unity Log] Server: placeableObject #3: Bunkbeds
-[Info   : Unity Log] Server: position #3: (9.40, 2.03, -11.54)
-[Info   : Unity Log] Server: placeableObject #4: Terminal
-[Info   : Unity Log] Server: position #4: (0.00, 0.00, 0.00)
-[Info   : Unity Log] Starting voice tracking for player: diegobagel
-[Info   :BetterStamina] Receiving config sync request from client with id: 1. Sending config sync to client.
-[Info   :HotbarPlus] Receiving extra hotbar slots sync request from client with id: 1. Sending config sync to client.
-[Info   : Unity Log] Setting animation on client
-[Warning:    LC_API] Asking all other players for their mod list..
-[Info   : Unity Log] Refreshing voice playback objects. Number of voice objects found: 1
-[Info   : Unity Log] Found a match for voice object #0 and player object #1
-[Info   : Unity Log] player voice chat audiosource: Player af41fbc1-a6b1-471d-b07b-80a7a12f97c0 voice comms (UnityEngine.AudioSource); set audiomixer to VoicePlayer1 (UnityEngine.AudioMixerGroup) ; VoicePlayer1 (UnityEngine.AudioMixerGroup) ; 1
-[Info   : Unity Log] Skipping player #2 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #3 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #4 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #5 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #6 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #7 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #8 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #9 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #10 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #11 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #12 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #13 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #14 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #15 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #16 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #17 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #18 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #19 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #20 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #21 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #22 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #23 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #24 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #25 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #26 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #27 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #28 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #29 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #30 as they are not controlled or dead
-[Info   : Unity Log] Skipping player #31 as they are not controlled or dead
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: True
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 6
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: False
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 0
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 0 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 0 ClientId: 0
-[Warning:    LC_API] diegobagel responded with these mods:
-atg.FnafPowerOutage
-atomic.terminalapi
-atomic.terminalclock
-beeisyou.PersistentPurchases
-BepInEx.MelonLoader.Loader.UnityMono
-BetterTeleporter
-Bits.StrangeObjects
-BlueAmulet.BetterClock
-BoomBox.BoomBoxNoPower
-BoomboxController
-com.bepis.bepinex.configurationmanager
-LC_API
-com.elitemastereric.coroner
-me.swipez.melonloader.morecompany
-com.elitemastereric.wackycosmetics
-com.github.tinyhoot.ShipLoot
-CustomSounds
-e3s1.BetterLadders
-egeadam.MoreScreams
-EmployeeAssignments
-evaisa.lethallib
-evaisa.lethalthings
-FlipMods.BetterStamina
-FlipMods.FasterItemDropship
-FlipMods.HotbarPlus
-FlipMods.LetMeLookDown
-FlipMods.MoreBlood
-FlipMods.ReservedItemSlotCore
-FlipMods.ReservedFlashlightSlot
-FlipMods.ReservedWalkieSlot
-FlipMods.SkipToMultiplayerMenu
-HDLethalCompany
-Hexnet.lethalcompany.suitsaver
-HideModList
-joe1359.lethalextras
-JPSilver.EquipmentTweaks
-keelhauled.graphicssettings
-LCBetterSaves
-LCFartLizards
-LCSoundTool
-LethalAPI.TerminalCommands
-LethalPosters
-Matsuura.HealthMetrics
-MetalPipeSFX.HornMoan
-Miodec.HideChat
-mnc.fixcentipedelag
-monke.lc.jumpdelay
-MoreEmotes
-MoreItems
-MovementCompany
-NicholaScott.BepInEx.Utils
-NicholaScott.LethalCompany.GlowSteps
-Octolar.Healthstation
-PopleZoo.BetterItemScan
-PushCompany
-Quokka.MoreMonsters
-RickArg.lethalcompany.helmetcameras
-Rozebud.FovAdjust
-RugbugRedfern.SkinwalkerMod
-SpectateEnemy
-sunnobunno.bonkhitsfx
-sunnobunno.landminefartreverb
-sunnobunno.scalingstartcredits
-sunnobunno.YippeeMod
-taffyko.NameplateTweaks
-twig.latecompany
-twig.terminalextras
-x753.Mimics
-x753.More_Suits
-xyz.extraes.lethalLoudness
-[Info   : Unity Log] Got audio file path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_0_133463656792930014.wav
-[Error  : Unity Log] Failed to load WAV file: HTTP/1.1 404 Not Found
-[Info   : Unity Log] Setting animation on client
-[Warning: Unity Log] [Dissonance:Network] (19:48:02.258) EventQueue: Large number of received packets pending dispatch (17). Possibly due to network congestion (last frame was 10.5951ms)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.138) EncodedAudioBuffer: Received a very late packet (36 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.138) EncodedAudioBuffer: Received a very late packet (35 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.138) EncodedAudioBuffer: Received a very late packet (34 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.138) EncodedAudioBuffer: Received a very late packet (33 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.138) EncodedAudioBuffer: Received a very late packet (32 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.138) EncodedAudioBuffer: Received a very late packet (31 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Network] (19:48:04.440) EventQueue: Large number of received packets pending dispatch (17). Possibly due to network congestion (last frame was 10.52ms)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (43 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (42 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (41 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (40 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (39 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (38 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (37 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (36 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (35 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (34 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (33 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (32 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.468) EncodedAudioBuffer: Received a very late packet (31 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.590) EncodedAudioBuffer: Received a very late packet (33 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.590) EncodedAudioBuffer: Received a very late packet (32 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Warning: Unity Log] [Dissonance:Playback] (19:48:04.590) EncodedAudioBuffer: Received a very late packet (31 packets late). This may indicate severe network congestion or a very poor frame rate. (30EF1B03-7BBC-49D3-A23E-6E84781FF29F)
-[Info   : Unity Log] Got audio file path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_0_133463656792930014.wav
-[Info   : Unity Log] Got audio file path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_1_133463656799694250.wav
-[Info   : Unity Log] Got audio file path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_2_133463656823307766.wav
-[Info   : Unity Log] Loaded clip from path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_0_133463656792930014.wav
-[Info   : Unity Log] Loaded clip from path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_1_133463656799694250.wav
-[Error  : Unity Log] Failed to load WAV file: HTTP/1.1 404 Not Found
-[Warning: Unity Log] [Dissonance:Playback] (19:48:11.674) EncodedAudioBuffer: Encoded audio heap is getting very large (40 items)
-[Info   : Unity Log] Got audio file path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_2_133463656823307766.wav
-[Info   : Unity Log] Got audio file path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_3_133463656916639504.wav
-[Info   : Unity Log] Loaded clip from path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_3_133463656916639504.wav
-[Info   : Unity Log] Loaded clip from path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_af41fbc1-a6b1-471d-b07b-80a7a12f97c0_2_133463656823307766.wav
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: True
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 6
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: False
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 0
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 0 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 0 ClientId: 0
-[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 79!
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 81!
 [Info   :BetterLadders] Held item mesh set to True
 [Info   : Unity Log] playerHeldBy on currentlyGrabbingObject 1: Player (GameNetcodeStuff.PlayerControllerB)
-[Info   : Unity Log] Dropping item at rot: -90, 212, 0
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   : Unity Log] Pressed the Emote3 key
+[Info   : Unity Log] Dropping item at rot: -90, 295, 0
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 78!
+[Info   :BetterLadders] Held item mesh set to True
+[Info   : Unity Log] playerHeldBy on currentlyGrabbingObject 1: Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Got audio file path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_8bddf4f6-7e2a-48f5-a218-23a5c0a5c8b6_1653_133463702282124456.wav
+[Info   : Unity Log] Loaded clip from path F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_8bddf4f6-7e2a-48f5-a218-23a5c0a5c8b6_1653_133463702282124456.wav
+[Error  : Unity Log] Error: Cannot create FMOD::Sound instance for clip "" (FMOD error: Unsupported file or audio format. )
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] ArsonPlush(Clone) - $92
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $7
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Info   : Unity Log] Best individual item: -1
+[Info   : Unity Log] Best combinations:
+[Info   : Unity Log] Best individual item: -1
+[Info   : Unity Log] Best combinations:
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] ArsonPlush(Clone) - $92
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $7
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Info   : Unity Log] Best individual item: -1
+[Info   : Unity Log] Best combinations:
+[Info   : Unity Log] use item A1
+[Info   : Unity Log] use item A
+[Info   : Unity Log] use item D
+[Info   : Unity Log] running item activate function
+[Info   : Unity Log] Dropping item at rot: -90, 276, -90
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 80!
+[Info   :BetterLadders] Held item mesh set to True
+[Info   : Unity Log] playerHeldBy on currentlyGrabbingObject 1: Player (GameNetcodeStuff.PlayerControllerB)
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Info   : Unity Log] Dropping item at rot: 0, 178, 0
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Info   : Unity Log] yoffset: 1.8
+[Info   : Unity Log] (0.00, 1.80, 0.00)
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] DISABLE OBJECT C
+[Info   : Unity Log] DISABLE OBJECT D
 [Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: True
 [Info   :ReservedItemSlotCore] Sending hotbar swap slot: 6
 [Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 6 ClientId: 0
@@ -1094,53 +1537,2371 @@ xyz.extraes.lethalLoudness
 [Info   :ReservedItemSlotCore] Sending hotbar swap slot: 0
 [Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 0 ClientId: 0
 [Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 0 ClientId: 0
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   : Unity Log] Pressed the Emote3 key
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: True
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 6
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: False
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 0
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 0 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 0 ClientId: 0
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: True
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 6
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 6 ClientId: 0
-[Info   :ReservedItemSlotCore] SettingFocusReservedHotbar to: False
-[Info   :ReservedItemSlotCore] Sending hotbar swap slot: 0
-[Info   :ReservedItemSlotCore] Receiving request for hotbar swap. Slot: 0 ClientId: 0
-[Info   :ReservedItemSlotCore] Receiving update for hotbar swap. Slot: 0 ClientId: 0
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 80!
+[Info   :BetterLadders] Held item mesh set to True
+[Info   : Unity Log] playerHeldBy on currentlyGrabbingObject 1: Player (GameNetcodeStuff.PlayerControllerB)
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+GrabbableObject.Update () (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0173)
+
+[Info   : Unity Log] Dropping item at rot: 0, 51, 0
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] DISABLE OBJECT C
+[Info   : Unity Log] DISABLE OBJECT D
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] yoffset: 1.7
+[Info   : Unity Log] (0.00, 1.70, 0.00)
+[Info   : Unity Log] Saving placed position as: (9.98, 1.93, -11.74)
+[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
 [Info   : Unity Log] PLAYER OPENED MENU
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc
+[Info   : Unity Log] STOPPING SPECIAL ANIMATION ON LOCAL CLIENT; player who was using: RudySPG
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 78!
+[Info   :BetterLadders] Held item mesh set to True
+[Info   : Unity Log] playerHeldBy on currentlyGrabbingObject 1: Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] use item A1
+[Info   : Unity Log] use item A
+[Info   : Unity Log] use item D
+[Info   : Unity Log] running item activate function
+[Info   : Unity Log] STOPPING SPECIAL ANIMATION ON LOCAL CLIENT; player who was using: RudySPG
+[Info   : Unity Log] use item A1
+[Info   : Unity Log] use item A
+[Info   : Unity Log] use item D
+[Info   : Unity Log] running item activate function
+[Info   : Unity Log] Dropping item at rot: -90, 356, -90
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] yoffset: 1.4
+[Info   : Unity Log] (0.00, 1.40, 0.00)
+[Info   : Unity Log] Saving placed position as: (8.66, 1.63, -16.51)
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 81!
+[Info   :BetterLadders] Held item mesh set to True
+[Info   : Unity Log] playerHeldBy on currentlyGrabbingObject 1: Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Dropping item at rot: -90, 281, 0
 [Info   : Unity Log] PLAYER OPENED MENU
 [Info   : Unity Log] Leaving current lobby
 [Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
 [Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
 [Info   : Unity Log] [Netcode] Shutdown
-[Warning: Unity Log] [Dissonance:Recording] (19:50:20.995) BasicMicrophoneCapture: Insufficient buffer space, requested 17760, clamped to 16383 (dropping 1377 samples)
-[Warning: Unity Log] [Dissonance:Recording] (19:50:20.996) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (19:50:20.996) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (21:07:14.969) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
 [Info   : Unity Log] [Netcode] ShutdownInternal
-[Info   : Unity Log] connectedClients (before): 1761274333
-[Info   : Unity Log] [FacepunchTransport] - Disconnecting remote client with ID 1761274333.
-[Info   : Unity Log] Disconnect callback called
-[Info   : Unity Log] Is server: True; ishost: True; isConnectedClient: False
-[Info   : Unity Log] Disconnect callback called in gamenetworkmanager; disconnecting clientId: 1
-[Info   : Unity Log] Client disconnected from server
-[Info   : Unity Log] Calling OnPlayerDC!
-[Info   : Unity Log] Shutdown is in progress, returning
-[Info   : Unity Log] Current lobby is null. (Attempted to set lobby joinable True.)
-[Info   : Unity Log] Calling OnPlayerDC!
-[Info   : Unity Log] Shutdown is in progress, returning
-[Info   : Unity Log] Current lobby is null. (Attempted to set lobby joinable True.)
-[Info   : Unity Log] Disconnect callback from networkmanager in gamenetworkmanager
 [Info   : Unity Log] [FacepunchTransport] - Shutting down.
 [Info   : Unity Log] [Netcode] NetworkConnectionManager.Shutdown() -> IsListening && NetworkTransport != null -> NetworkTransport.Shutdown()
-[Info   : Unity Log] [FacepunchTransport] - connectedClients does not contain key; returning
-[Info   : Unity Log] [Dissonance:Network] (19:50:21.058) NfgoClient: Disconnected
-[Info   : Unity Log] [Dissonance:Network] (19:50:21.059) NfgoServer: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (21:07:15.002) NfgoClient: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (21:07:15.003) NfgoServer: Disconnected
 [Info   : Unity Log] CONDITIONALLY resetting unlockables list!
 [Info   :Persistent Purchases] Not resetting 0 dontResetAnything
 [Info   :Persistent Purchases] Not resetting 1 dontResetAnything
@@ -1182,38 +3943,39 @@ xyz.extraes.lethalLoudness
 [Info   :Persistent Purchases] Not resetting 34 dontResetAnything
 [Info   :Persistent Purchases] Not resetting 35 dontResetAnything
 [Info   : Unity Log] Scene manager is null
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (19) is being destroyed while NetworkObject-Player (19) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (30) is being destroyed while NetworkObject-Player (30) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (20) is being destroyed while NetworkObject-Player (20) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (12) is being destroyed while NetworkObject-Player (12) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (26) is being destroyed while NetworkObject-Player (26) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (8) is being destroyed while NetworkObject-Player (8) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (28) is being destroyed while NetworkObject-Player (28) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (15) is being destroyed while NetworkObject-Player (15) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (5) is being destroyed while NetworkObject-Player (5) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (17) is being destroyed while NetworkObject-Player (17) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (14) is being destroyed while NetworkObject-Player (14) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (8) is being destroyed while NetworkObject-Player (8) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (25) is being destroyed while NetworkObject-Player (25) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (21) is being destroyed while NetworkObject-Player (21) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (18) is being destroyed while NetworkObject-Player (18) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (4) is being destroyed while NetworkObject-Player (4) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (24) is being destroyed while NetworkObject-Player (24) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (25) is being destroyed while NetworkObject-Player (25) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (14) is being destroyed while NetworkObject-Player (14) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (21) is being destroyed while NetworkObject-Player (21) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (5) is being destroyed while NetworkObject-Player (5) is still spawned! (could break state synchronization)
-[Info   : Unity Log] DISABLING connection callbacks in round manager
-[Info   : Unity Log] Terminal disabled, disabling ESC key listener
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (23) is being destroyed while NetworkObject-Player (23) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (27) is being destroyed while NetworkObject-Player (27) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (17) is being destroyed while NetworkObject-Player (17) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (16) is being destroyed while NetworkObject-Player (16) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (23) is being destroyed while NetworkObject-Player (23) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (11) is being destroyed while NetworkObject-Player (11) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (31) is being destroyed while NetworkObject-Player (31) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (9) is being destroyed while NetworkObject-Player (9) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (13) is being destroyed while NetworkObject-Player (13) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (22) is being destroyed while NetworkObject-Player (22) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (10) is being destroyed while NetworkObject-Player (10) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (29) is being destroyed while NetworkObject-Player (29) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (7) is being destroyed while NetworkObject-Player (7) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (1) is being destroyed while NetworkObject-Player (1) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (2) is being destroyed while NetworkObject-Player (2) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (3) is being destroyed while NetworkObject-Player (3) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (9) is being destroyed while NetworkObject-Player (9) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (6) is being destroyed while NetworkObject-Player (6) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (24) is being destroyed while NetworkObject-Player (24) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (29) is being destroyed while NetworkObject-Player (29) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (7) is being destroyed while NetworkObject-Player (7) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (22) is being destroyed while NetworkObject-Player (22) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (10) is being destroyed while NetworkObject-Player (10) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (30) is being destroyed while NetworkObject-Player (30) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (13) is being destroyed while NetworkObject-Player (13) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (26) is being destroyed while NetworkObject-Player (26) is still spawned! (could break state synchronization)
+[Info   : Unity Log] Terminal disabled, disabling ESC key listener
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (19) is being destroyed while NetworkObject-Player (19) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (16) is being destroyed while NetworkObject-Player (16) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (20) is being destroyed while NetworkObject-Player (20) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (12) is being destroyed while NetworkObject-Player (12) is still spawned! (could break state synchronization)
+[Info   : Unity Log] DISABLING connection callbacks in round manager
 [Info   : Unity Log] Set version num
 [Info   : Unity Log] Changing gamma
 [Info   : Unity Log] override float value: 0
@@ -1234,8 +3996,8 @@ xyz.extraes.lethalLoudness
 [Info   : Unity Log] Renamed TempFile1 to LCSaveFile1
 [Info   : Unity Log] Renamed TempFile2 to LCSaveFile2
 [Info   : Unity Log] Renamed TempFile3 to LCSaveFile3
-[Info   : Unity Log] [Dissonance:Core] (19:50:21.288) DissonanceComms: Loading default playback prefab
-[Info   : Unity Log] [Dissonance:Core] (19:50:21.290) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] [Dissonance:Core] (21:07:15.220) DissonanceComms: Loading default playback prefab
+[Info   : Unity Log] [Dissonance:Core] (21:07:15.221) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
@@ -1251,6 +4013,6 @@ xyz.extraes.lethalLoudness
 [Info   : Unity Log] Set gamma to new value: 0; (0.00, 0.00, 0.00, 0.00) (True)
 [Info   : Unity Log] T
 [Info   : Unity Log] unsubscribing from steam callbacks
-[Info   :Quokka.MoreMonsters] [-] The GUILoader was destroyed.
 [Message:    LC_API] A plugin has set your game to only allow you to play with other people who have mods!
 [Error  : LoudMeter] Creating new GameObject to host LoudnessMeter...
+[Info   :Quokka.MoreMonsters] [-] The GUILoader was destroyed.

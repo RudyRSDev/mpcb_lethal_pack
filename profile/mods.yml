@@ -146,9 +146,10 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 0
+    patch: 1
   enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\NotAtomicBomb-TerminalApi\1.3.0\icon.png
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\NotAtomicBomb-TerminalApi\icon.png
 - manifestVersion: 1
   name: NotAtomicBomb-Terminal_Clock
   authorName: NotAtomicBomb
@@ -712,7 +713,7 @@
   versionNumber:
     major: 0
     minor: 5
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Evaisa-LethalLib\icon.png
@@ -891,7 +892,7 @@
   versionNumber:
     major: 2023
     minor: 12
-    patch: 4
+    patch: 7
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\MassiveNewCoilers-FixCentipedeLag\icon.png
@@ -1068,8 +1069,9 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: false
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Augur-RemoveCameraFilter\1.0.0\icon.png
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\Augur-RemoveCameraFilter\icon.png
 - manifestVersion: 1
   name: no00ob-LCSoundTool
   authorName: no00ob
@@ -1208,7 +1210,7 @@
   versionNumber:
     major: 0
     minor: 5
-    patch: 0
+    patch: 4
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Evaisa-LethalThings\icon.png
@@ -1263,7 +1265,7 @@
   authorName: Sligili
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/
   displayName: More_Emotes
-  description: Currently adds one more emote (Custom keybinds supported)
+  description: Currently adds four more emotes (Custom keybinds supported)
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1275,7 +1277,7 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
+    minor: 1
     patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -1565,7 +1567,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\BlueAmulet-LCBetterClock\icon.png
@@ -1649,12 +1651,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
+    - 2018-LC_API-2.1.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 7
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\RugbugRedfern-Skinwalkers\icon.png
