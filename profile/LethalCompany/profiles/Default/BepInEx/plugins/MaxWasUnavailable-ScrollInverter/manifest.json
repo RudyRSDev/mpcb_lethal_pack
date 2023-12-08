@@ -1,0 +1,7 @@
+{
+  "name": "ScrollInverter",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/MaxWasUnavailable/ScrollInverter",
+  "description": "A simple mod that inverts the scroll direction of the item slots bar.",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}

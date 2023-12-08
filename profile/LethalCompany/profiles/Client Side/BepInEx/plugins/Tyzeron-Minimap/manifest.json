@@ -1,0 +1,8 @@
+{
+    "name": "Minimap",
+    "description": "The first fully customizable client-sided MINIMAP mod for Lethal Company. All configurations can be managed via a user-friendly in-game GUI. Suitable for both solo and co-op players!",
+    "version_number": "1.0.4",
+    "website_url": "http://lethalcompany.tyzeron.com/",
+    "dependencies": [
+    ]
+}

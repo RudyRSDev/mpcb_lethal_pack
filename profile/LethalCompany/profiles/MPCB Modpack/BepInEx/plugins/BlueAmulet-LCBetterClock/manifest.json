@@ -1,0 +1,9 @@
+{
+  "name": "LCBetterClock",
+  "description": "Customize the look of the clock and when you can see it",
+  "version_number": "1.0.3",
+  "website_url": "",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

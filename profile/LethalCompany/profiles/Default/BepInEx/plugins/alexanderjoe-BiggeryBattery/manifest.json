@@ -1,0 +1,7 @@
+{
+    "name": "BiggeryBattery",
+    "version_number": "1.0.2",
+    "website_url": "https://github.com/alexanderjoe/LCBiggerBattery",
+    "description": "Increases the battery life of many battery powered gadgets.",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}

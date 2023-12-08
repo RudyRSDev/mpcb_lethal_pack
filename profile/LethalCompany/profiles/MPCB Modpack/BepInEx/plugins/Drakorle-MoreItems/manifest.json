@@ -1,0 +1,9 @@
+{
+    "name": "MoreItems",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Changes the max amount of items that the game saves from 45 to 999. Requires BepInEx.",
+    "dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+    ]
+}

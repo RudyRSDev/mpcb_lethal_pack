@@ -1,0 +1,87 @@
+- manifestVersion: 1
+  name: BepInEx-BepInExPack
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/
+  displayName: BepInExPack
+  description: BepInEx pack for Mono Unity games. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2100
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\BepInEx-BepInExPack\5.4.2100\icon.png
+- manifestVersion: 1
+  name: Sligili-HDLethalCompany
+  authorName: Sligili
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/HDLethalCompany/
+  displayName: HDLethalCompany
+  description: Additional graphics settings such as resolution, anti-aliasing, fog
+    quality etc.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 2
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Client
+    Side\BepInEx\plugins\Sligili-HDLethalCompany\icon.png
+- manifestVersion: 1
+  name: Rozebud-FOV_Adjust
+  authorName: Rozebud
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Rozebud/FOV_Adjust/
+  displayName: FOV_Adjust
+  description: Allows you adjust the game's FOV.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Client
+    Side\BepInEx\plugins\Rozebud-FOV_Adjust\icon.png
+- manifestVersion: 1
+  name: Tyzeron-Minimap
+  authorName: Tyzeron
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Tyzeron/Minimap/
+  displayName: Minimap
+  description: The first fully customizable client-sided MINIMAP mod for Lethal
+    Company. All configurations can be managed via a user-friendly in-game GUI.
+    Suitable for both solo and co-op players!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Tyzeron-Minimap\1.0.4\icon.png

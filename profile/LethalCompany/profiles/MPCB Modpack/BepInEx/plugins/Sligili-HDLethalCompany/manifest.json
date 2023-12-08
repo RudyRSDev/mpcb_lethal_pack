@@ -1,0 +1,10 @@
+{
+    "name": "HDLethalCompany",
+    "version_number": "1.5.2",
+    "website_url": "https://github.com/Sligili/HDLethalCompany",
+    "description": "Additional graphics settings such as resolution, anti-aliasing, fog quality etc.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+
+    ]
+}

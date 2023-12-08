@@ -1,0 +1,10 @@
+{
+    "name": "SpiderManSuitV2",
+    "version_number": "1.2.0",
+    "website_url": "https://github.com/StonerTurtle77/Spider-Man-Suit-Mod",
+    "description": "Adds Spider-Man to Lethal Company, must have 753MoreSuits",
+    "dependencies": [
+        "x753-More_Suits-1.3.2",
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

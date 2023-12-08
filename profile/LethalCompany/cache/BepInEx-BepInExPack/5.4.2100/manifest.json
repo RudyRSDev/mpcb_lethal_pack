@@ -1,0 +1,7 @@
+{
+    "name": "BepInExPack",
+    "version_number": "5.4.2100",
+    "website_url": "https://github.com/BepInEx/BepInEx",
+    "description": "BepInEx pack for Mono Unity games. Preconfigured and ready to use.",
+    "dependencies": []
+}

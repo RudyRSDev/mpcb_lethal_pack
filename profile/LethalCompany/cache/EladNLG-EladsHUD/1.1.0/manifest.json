@@ -1,0 +1,9 @@
+{
+    "name": "EladsHUD",
+    "version_number": "1.1.0",
+    "website_url": "https://discord.gg/XeyYqRdRGC",
+    "description": "Replaces the player hud with a different one.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

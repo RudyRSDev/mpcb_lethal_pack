@@ -1,0 +1,9 @@
+{
+    "name": "HideChat",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Fully fade out the text chat when not in use",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "LethalCompanyBetterScaling",
+  "version_number": "1.4.0",
+  "website_url": "https://github.com/oknorton/LethalCompanyScalingMaster",
+  "description": "The Lethal Company Scaling Master mod gives players the ability to fully customize scaling for various main game values by pressing CTRL + M buton to open the config menu. (Biggerlobbies compatible!).",
+  "description": "Better customizable scaling, funds and penalties for bigger lobbies in lethal company by pressing ctrl+M to configure!)",
+  "dependencies": [
+    "2018-LC_API-1.3.0",
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

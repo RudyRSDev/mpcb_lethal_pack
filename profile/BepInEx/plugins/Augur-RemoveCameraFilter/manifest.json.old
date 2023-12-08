@@ -1,9 +1,0 @@
-{
-    "name": "RemoveCameraFilter",
-    "version_number": "1.0.0",
-    "website_url": "https://www.nexusmods.com/lethalcompany/mods/10",
-    "description": "Mod by Kruumy from Nexus Mods. Removes the outline filter.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

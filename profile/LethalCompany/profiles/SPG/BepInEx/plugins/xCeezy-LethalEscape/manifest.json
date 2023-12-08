@@ -1,0 +1,9 @@
+{
+    "name": "LethalEscape",
+    "version_number": "0.7.3",
+    "website_url": "",
+    "description": "A mod that aims to allow almost every inside creature to escape to the outside so that nowhere is safe!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "More_Emotes",
+    "version_number": "1.0.0",
+    "website_url": "https://www.youtube.com/watch?v=BbeeuzU5Qc8&t=11s",
+    "description": "Currently adds one more emote (Custom keybinds supported)",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

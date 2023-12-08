@@ -1,0 +1,10 @@
+{
+    "name": "GokuSpiders",
+    "version_number": "1.0.0",
+    "website_url": "https://discord.gg/lethal-company",
+    "description": "Reskins the Spider to be goku.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "2018-LC_API-1.0.0"
+    ]
+}

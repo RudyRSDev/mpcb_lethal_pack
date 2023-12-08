@@ -1,0 +1,9 @@
+{
+    "name": "FOV_Adjust",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/ThatRozebudDude/LethalCompany-FovAdjust",
+    "description": "Allows you adjust the game's FOV.",
+    "dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+	]
+}

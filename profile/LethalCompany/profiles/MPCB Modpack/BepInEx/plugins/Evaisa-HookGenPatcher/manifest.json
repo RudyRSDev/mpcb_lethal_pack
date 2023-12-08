@@ -1,0 +1,7 @@
+﻿{
+	"name": "HookGenPatcher",
+	"version_number": "0.0.5",
+	"website_url": "https://github.com/harbingerofme/Bepinex.Monomod.HookGenPatcher",
+	"description": "Generates MonoMod.RuntimeDetour.HookGen's MMHOOK file during the BepInEx preloader phase.",
+	"dependencies": []
+}

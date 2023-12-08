@@ -1,0 +1,9 @@
+{
+    "name": "VoiceHUD",
+    "version_number": "1.0.4",
+    "website_url": "https://github.com/helo1223/LC_VoiceHUD",
+    "description": "Displays the ingame push-to-talk icon, when detecting voice activity",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

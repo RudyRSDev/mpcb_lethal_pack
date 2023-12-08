@@ -1,0 +1,10 @@
+{
+  "name": "SCP_Foundation_Suit",
+  "version_number": "1.0.1",
+  "website_url": "",
+  "description": "Adds an SCP Facility Guard suit to the game. Requires the More Suits mod to appear.",
+  "dependencies": [
+    "x753-More_Suits-1.3.1",
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

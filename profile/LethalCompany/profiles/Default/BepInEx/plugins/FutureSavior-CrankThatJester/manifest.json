@@ -1,0 +1,11 @@
+{
+    "name": "CrankThatJester",
+    "version_number": "1.1.2",
+    "website_url": "",
+    "description": "Changes the sound of the Jester to Soulja Boys Crank That",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "no00ob-LCSoundTool-1.2.2",
+        "Clementinise-CustomSounds-1.2.3"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "WalkieUse",
+    "description": "Press R to use a walkie talkie in your inventory no matter what you're holding. CLIENT SIDE.",
+    "version_number": "1.2.3",
+    "dependencies": [],
+    "website_url": "https://github.com/redassser/Walkie"
+}

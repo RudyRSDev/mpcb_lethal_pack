@@ -1,0 +1,10 @@
+{
+    "name": "SCP173CoilheadSFX",
+    "version_number": "1.0.5",
+    "website_url": "https://discord.gg/kVx8qMyFYD",
+    "description": "Replaces  Coilhead (Springman) with SCP-173 (The Sculpture). Sounds are included.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "2018-LC_API-1.0.0"
+    ]
+}
