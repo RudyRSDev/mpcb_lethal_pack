@@ -1,9 +1,0 @@
-{
-    "name": "BetterStamina",
-    "version_number": "1.2.1",
-    "website_url": "",
-    "description": "Makes stamina consumption/regen a bit better. All values can be tweaked in config, and will sync with the host.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

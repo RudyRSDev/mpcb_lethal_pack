@@ -1,8 +1,0 @@
-{
-    "name": "Boombox_Controller",
-    "version_number": "1.0.6",
-	"website_url": "",
-    "description": "Allows you to easily upload a track to the boombox by specifying a link",
-    "dependencies": [
-    ]
-}

@@ -1,0 +1,9 @@
+{
+	"name": "PersistentPurchases",
+	"description": "Cosmetic items stick behind even after being fired",
+	"version_number": "1.1.0",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+	],
+	"website_url": "https://github.com/NotSoEpic/PeristentPurchases"
+}

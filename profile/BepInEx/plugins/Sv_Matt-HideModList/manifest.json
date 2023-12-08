@@ -1,0 +1,8 @@
+{
+  "name": "HideModList",
+  "version_number": "1.0.1",
+  "website_url": "",
+  "description": "Hides the mod list popup",
+  "dependencies": [
+  ]
+}

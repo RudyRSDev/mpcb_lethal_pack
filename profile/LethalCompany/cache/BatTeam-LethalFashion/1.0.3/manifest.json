@@ -1,9 +1,0 @@
-{
-    "name": "LethalFashion",
-    "version_number": "1.0.3",
-    "website_url": "",
-    "description": "Unlocks the green suit, hazard suit, and pajama suit by default.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

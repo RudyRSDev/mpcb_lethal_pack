@@ -1,9 +1,0 @@
-{
-    "name": "WaluigiSuit",
-    "version_number": "0.0.2",
-    "website_url": "",
-    "description": "Waluigi Time",
-    "dependencies": [
-        "x753-More_Suits-1.3.0"
-    ]
-}

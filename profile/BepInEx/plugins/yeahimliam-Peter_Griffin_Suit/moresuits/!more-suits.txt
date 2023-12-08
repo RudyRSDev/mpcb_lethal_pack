@@ -1,0 +1,4 @@
+This file indicates that this is NOT the original moresuits folder.
+
+Credits to x753 for the original More Suits mod.
+Credits to Graelyth and Curt for `minion.png` and `slayer.png`.

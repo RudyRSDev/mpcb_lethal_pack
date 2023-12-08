@@ -1,0 +1,10 @@
+{
+    "name": "Terminal_Clock",
+    "version_number": "1.0.5",
+    "website_url": "https://github.com/NotAtomicBomb/TerminalClock",
+    "description": "A Terminal Clock",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+	"NotAtomicBomb-TerminalApi-1.2.0"
+    ]
+}

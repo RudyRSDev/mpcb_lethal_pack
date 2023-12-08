@@ -1,7 +1,0 @@
-{
-	"name": "SpectateEnemies",
-	"version_number": "1.3.0",
-	"website_url": "https://github.com/EBro912/SpectateEnemies/",
-	"description": "Allows you to spectate enemies when dead.",
-	"dependencies": []
-}

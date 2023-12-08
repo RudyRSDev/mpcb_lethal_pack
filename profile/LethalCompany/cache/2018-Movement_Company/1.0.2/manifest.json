@@ -1,9 +1,0 @@
-{
-  "name": "Movement_Company",
-  "version_number": "1.0.2",
-  "website_url": "",
-  "description": "Bhop Mod for Lethal Company",
-  "dependencies": [
-    "2018-LC_API-1.0.0"
-  ]
-}

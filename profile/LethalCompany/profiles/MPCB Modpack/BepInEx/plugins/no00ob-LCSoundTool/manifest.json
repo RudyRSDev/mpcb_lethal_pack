@@ -1,9 +1,0 @@
-{
-    "name": "LCSoundTool",
-    "version_number": "1.2.2",
-    "website_url": "https://github.com/no00ob/LCSoundTool",
-    "description": "Let's you easily load audio files, replace any in game audio clip and log any audio playback into console.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

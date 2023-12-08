@@ -1,0 +1,9 @@
+{
+    "name": "Strange_Objects",
+    "version_number": "1.2.1",
+    "website_url": "",
+    "description": "Adds a new rarity tier of scrap items. These items are more valuable but also dangerous!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

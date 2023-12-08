@@ -1,0 +1,9 @@
+{
+    "name": "BepInEx_MLLoader",
+    "version_number": "2.1.0",
+    "website_url": "https://github.com/BepInEx/BepInEx.MelonLoader.Loader",
+    "description": "Loads MelonLoader mods in BepInEx",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

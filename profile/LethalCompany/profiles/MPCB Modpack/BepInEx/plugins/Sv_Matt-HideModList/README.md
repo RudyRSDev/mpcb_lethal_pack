@@ -1,1 +1,0 @@
-Hides the "Mod List:" popup that shows when a player joins, that's all.

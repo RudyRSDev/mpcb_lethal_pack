@@ -1,0 +1,7 @@
+{
+    "name": "FixCentipedeLag",
+    "version_number": "2023.12.7",
+    "website_url": "https://github.com/sam-k0/LC_FixCentipedeLag",
+    "description": "Tries to remove sudden lag by destroying stuck centipede objects",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}

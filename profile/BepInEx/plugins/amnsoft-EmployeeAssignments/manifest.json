@@ -1,0 +1,10 @@
+{
+    "name": "EmployeeAssignments",
+    "version_number": "1.0.3",
+    "website_url": "",
+    "description": "Personal assignments for employees, that can be completed for extra cash",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "2018-LC_API-2.1.1"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "DeadSpaceIssac_Suits",
+  "version_number": "1.0.4",
+  "website_url": "",
+  "description": "Adds Issac Clarke from Deadspace. Requires the More Suits mod to appear.",
+  "dependencies": [
+    "x753-More_Suits-1.3.1",
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

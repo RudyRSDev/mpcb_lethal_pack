@@ -1,0 +1,9 @@
+{
+    "name": "MoreBlood",
+    "version_number": "1.0.2",
+    "website_url": "",
+    "description": "Adds more blood for you psychopaths, and for those who want more creepy vibes!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

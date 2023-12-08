@@ -1,9 +1,0 @@
-{
-  "name": "HealthStation",
-  "version_number": "1.0.1",
-  "website_url": "",
-  "description": "Will heal the player to max health when using the charger station to charge an item.",
-  "dependencies": [
-    "BepInEx-BepInExPack-5.4.2100"
-  ]
-}

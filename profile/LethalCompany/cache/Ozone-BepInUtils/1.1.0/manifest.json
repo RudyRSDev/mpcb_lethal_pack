@@ -1,9 +1,0 @@
-{
-  "name": "BepInUtils",
-  "version_number": "1.1.0",
-  "website_url": "",
-  "description": "A library some of my mods depend on.",
-  "dependencies": [
-    "BepInEx-BepInExPack-5.4.2100"
-  ]
-}

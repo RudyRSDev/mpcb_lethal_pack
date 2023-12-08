@@ -1,9 +1,0 @@
-{
-    "name": "ReservedItemSlotCore",
-    "version_number": "1.4.3",
-    "website_url": "",
-    "description": "The core mod for all ReservedItemSlot mods. Adds functionality for my ReservedItemSlot mods.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

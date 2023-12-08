@@ -1,9 +1,0 @@
-{
-  "name": "MoreMonsters",
-  "version_number": "1.1.1",
-  "website_url": "https://github.com/0xjclar/MoreMonsters",
-  "description": "Allows you to customize how many monsters spawn and how often they spawn. Press Insert to open the menu. Ideal for when there are more than 4 players (via lobby increasing mods like MoreCompany). For BepInEx.",
-  "dependencies": [
-    "BepInEx-BepInExPack-5.4.2100"
-  ]
-}

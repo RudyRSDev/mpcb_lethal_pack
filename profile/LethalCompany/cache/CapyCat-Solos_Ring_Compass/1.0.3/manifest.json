@@ -1,9 +1,0 @@
-{
-    "name": "Solos_Ring_Compass",
-    "version_number": "1.0.3",
-    "website_url": "https://discord.gg/gyz9mrZ4bR",
-    "description": "Adds a monitor-accurate ring compass at the top of the screen, where the helmet overlay is.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

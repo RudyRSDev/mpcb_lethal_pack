@@ -1,9 +1,0 @@
-{
-    "name": "SkipToMultiplayerMenu",
-    "version_number": "1.0.0",
-    "website_url": "",
-    "description": "Skips the PreInit and InitGame scenes, and loads directly into the multiplayer menu.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}
