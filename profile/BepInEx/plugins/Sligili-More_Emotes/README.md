@@ -1,4 +1,4 @@
-# More Emotes V1.1.0 - Sligili 
+# More Emotes V1.1.1 - Sligili 
 
 ## INSTALLATION 🛠
 Extract on the main game folder (where ```Lethal Company.exe``` is located). Make sure you have [BepInEx](https://github.com/BepInEx/BepInEx) installed
@@ -17,7 +17,7 @@ Toggle any keybind by setting ```Enable``` to ```true``` or ```false```
 #### Middle Finger - Default Key: ```3```
 ![CustomEmote1](https://i.imgur.com/WZQNiMo.jpeg)
 -----------------------------------------------------
-#### Clap (No sound for now) - Default Key ```4```
+#### Clap - Default Key ```4```
 ![CustomEmote2](https://i.imgur.com/UCuMpFq.jpg)
 -----------------------------------------------------
 #### Shy - Default Key ```5```
@@ -30,6 +30,10 @@ Toggle any keybind by setting ```Enable``` to ```true``` or ```false```
 
 ## CHANGELOG 🕗
 
+- ***v1.1.1:***
+     - Disabled some emotes while holding items/scrap
+     - Added sound to the clapping animation, enemies can hear it aswell 😈
+     - Minor tweaks to the first person clap animation
 - ***v1.1.0:***
      - Added the shy (lethal uwu), clap and griddy emote 🥶 (static griddy tho)
      - Minor tweaks to the middlefinger emote

@@ -38,7 +38,8 @@
     minor: 7
     patch: 0
   enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\notnotnotswipez-MoreCompany\1.7.0\icon.png
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\notnotnotswipez-MoreCompany\icon.png
 - manifestVersion: 1
   name: tinyhoot-ShipLoot
   authorName: tinyhoot
@@ -711,8 +712,8 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 5
-    patch: 2
+    minor: 6
+    patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Evaisa-LethalLib\icon.png
@@ -801,7 +802,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\KoderTeh-Boombox_Controller\icon.png
@@ -1162,7 +1163,7 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Sligili-HDLethalCompany\icon.png
@@ -1186,8 +1187,8 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 5
-    patch: 4
+    minor: 6
+    patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Evaisa-LethalThings\icon.png
@@ -1255,7 +1256,7 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Sligili-More_Emotes\icon.png
@@ -1436,27 +1437,6 @@
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Hexnet111-SuitSaver\icon.png
-- manifestVersion: 1
-  name: Pooble-LCFartLizards
-  authorName: Pooble
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Pooble/LCFartLizards/
-  displayName: LCFartLizards
-  description: Replace the spore lizard spray sound with a fart
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 1
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\Pooble-LCFartLizards\icon.png
 - manifestVersion: 1
   name: amnsoft-EmployeeAssignments
   authorName: amnsoft
@@ -1660,29 +1640,6 @@
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\GorillaBeast-GorillaSuits\icon.png
 - manifestVersion: 1
-  name: sunnobunno-LandMineFartReverb
-  authorName: sunnobunno
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/sunnobunno/LandMineFartReverb/
-  displayName: LandMineFartReverb
-  description: They say you fart up to three hours after you die. Better go out
-    with a big one.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\sunnobunno-LandMineFartReverb\icon.png
-- manifestVersion: 1
   name: TeamClark-SCP_Foundation_Suit
   authorName: TeamClark
   websiteUrl: https://thunderstore.io/c/lethal-company/p/TeamClark/SCP_Foundation_Suit/
@@ -1799,3 +1756,138 @@
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\ViViKo-AmongUsSuits\icon.png
+- manifestVersion: 1
+  name: femboytv-LethalAdjustments
+  authorName: femboytv
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/femboytv/LethalAdjustments/
+  displayName: LethalAdjustments
+  description: Lets you adjust different internal values via config
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\femboytv-LethalAdjustments\icon.png
+- manifestVersion: 1
+  name: alexanderjoe-BiggeryBattery
+  authorName: alexanderjoe
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/alexanderjoe/BiggeryBattery/
+  displayName: BiggeryBattery
+  description: Increases the battery life of many battery powered gadgets.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\alexanderjoe-BiggeryBattery\icon.png
+- manifestVersion: 1
+  name: ColtG5-CreepyBrackens
+  authorName: ColtG5
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ColtG5/CreepyBrackens/
+  displayName: CreepyBrackens
+  description: Adds the fnaf foxy "Dum dum dum" audio to the Bracken whenever it
+    decides to hunt you.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\ColtG5-CreepyBrackens\icon.png
+- manifestVersion: 1
+  name: SZAKI-RemoteRemastered
+  authorName: SZAKI
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/SZAKI/RemoteRemastered/
+  displayName: RemoteRemastered
+  description: With this mod, you could disable the turrets and landmines with a
+    single click.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\SZAKI-RemoteRemastered\icon.png
+- manifestVersion: 1
+  name: 299792458-ScanForEnemies
+  authorName: "299792458"
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/299792458/ScanForEnemies/
+  displayName: ScanForEnemies
+  description: Scan for the type and amount of each enemy on the map.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - NotAtomicBomb-TerminalApi-1.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\299792458-ScanForEnemies\icon.png
+- manifestVersion: 1
+  name: 5Bit-FPSSpectate
+  authorName: 5Bit
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/5Bit/FPSSpectate/
+  displayName: FPSSpectate
+  description: FPS spectator camera
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\5Bit-FPSSpectate\icon.png

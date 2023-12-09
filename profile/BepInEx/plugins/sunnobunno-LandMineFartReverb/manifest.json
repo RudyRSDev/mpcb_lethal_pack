@@ -1,9 +1,0 @@
-{
-    "name": "LandMineFartReverb",
-    "version_number": "1.0.1",
-	"website_url": "",
-    "description": "They say you fart up to three hours after you die. Better go out with a big one.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

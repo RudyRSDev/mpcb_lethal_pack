@@ -1,6 +1,6 @@
 {
     "name": "HDLethalCompany",
-    "version_number": "1.5.2",
+    "version_number": "1.5.3",
     "website_url": "https://github.com/Sligili/HDLethalCompany",
     "description": "Additional graphics settings such as resolution, anti-aliasing, fog quality etc.",
     "dependencies": [

@@ -1,0 +1,9 @@
+{
+    "name": "FPSSpectate",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/helo1223/LC_FPSSpectate",
+    "description": "FPS spectator camera",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

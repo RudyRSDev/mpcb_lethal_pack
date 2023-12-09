@@ -20,6 +20,7 @@ There are currently two translations available:
 2. Increasing the number of characters in a message by 200
 3. Changing the music volume
 4. Also you can turn on/off the battery of the boombox in configuration
+5. Change the position of the track using the command
 
 ### Supported links:
 
@@ -34,6 +35,8 @@ There are currently two translations available:
 /bhelp - View all commands
 
 /bplay - Play music
+
+/btime - Place video position (example: /btime 1:20)
 
 /bvolume - Change boombox volume
 ```

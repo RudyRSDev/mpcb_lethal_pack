@@ -1,3 +1,8 @@
+-   **1.0.7**
+
+	-	Added track position change in the boombox.
+	-	I cleaned the code a little bit :)
+
 -   **1.0.6**
 
 	-	Improved synchronization of songs via SoundCloud.

@@ -1,13 +1,12 @@
 # MPCB Lethal Company Mod Pack
-Use [r2ModeManager](https://thunderstore.io/package/ebkr/r2modman/)   
-Current Code: `018c4830-fbb4-c2f6-05a8-483f1f6ab4df`
 
 ## How to install
 ### Windows/Linux
+- Install [r2ModeManager](https://thunderstore.io/package/ebkr/r2modman/)
 - Select Game or Make it Default
 - Press `Import/Update`
 - Press `Import new profile`
-- Press `From code`
+- Press `From code` and input `018c4cc2-0d5c-2da4-3b40-af5da357cc52`
 
 ### Mac
 - Use [Whiskey](https://github.com/Whisky-App/Whisky) to install Lethal Comapny
@@ -31,3 +30,14 @@ Current Code: `018c4830-fbb4-c2f6-05a8-483f1f6ab4df`
 - `/bplay <link>` Add song to BoomBox, Youtube or Soundcloud
 - `/fov <#>` Change FOV from 66 to 130, better to change in config
 - `/toggleVisor` Removes visor, change config to save
+
+## Updating
+### Windows/Linux
+- Press `Import/Update`
+- Press `From Code` put code above
+- Press `Import`
+- If it doesnt update delete and import as if new
+
+### Mac
+- Delete Contents of BepInEx Folder
+- Clone and move Plugins Folder
