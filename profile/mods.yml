@@ -827,7 +827,7 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 1
+    minor: 2
     patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -1171,30 +1171,6 @@
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\extraes-LethalLoudnessMeter\icon.png
-- manifestVersion: 1
-  name: QuokkaCrew-MoreMonsters
-  authorName: QuokkaCrew
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/QuokkaCrew/MoreMonsters/
-  displayName: MoreMonsters
-  description: Allows you to customize how many monsters spawn and how often they
-    spawn. Press Insert to open the menu. Ideal for when there are more than 4
-    players (via lobby increasing mods like MoreCompany). For BepInEx.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\QuokkaCrew-MoreMonsters\icon.png
 - manifestVersion: 1
   name: Sligili-More_Emotes
   authorName: Sligili
@@ -1713,28 +1689,6 @@
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\ViViKo-AmongUsSuits\icon.png
 - manifestVersion: 1
-  name: femboytv-LethalAdjustments
-  authorName: femboytv
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/femboytv/LethalAdjustments/
-  displayName: LethalAdjustments
-  description: Lets you adjust different internal values via config
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\femboytv-LethalAdjustments\icon.png
-- manifestVersion: 1
   name: alexanderjoe-BiggeryBattery
   authorName: alexanderjoe
   websiteUrl: https://thunderstore.io/c/lethal-company/p/alexanderjoe/BiggeryBattery/
@@ -1802,3 +1756,71 @@
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\299792458-ScanForEnemies\icon.png
+- manifestVersion: 1
+  name: stefan750-LCUltrawide
+  authorName: stefan750
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/stefan750/LCUltrawide/
+  displayName: LCUltrawide
+  description: Adds support for ultrawide monitors (or any other resolution and
+    aspect ratio), and allows changing the size and aspect ratio of the ingame
+    HUD
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\stefan750-LCUltrawide\icon.png
+- manifestVersion: 1
+  name: Rozebud-FOV_Adjust
+  authorName: Rozebud
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Rozebud/FOV_Adjust/
+  displayName: FOV_Adjust
+  description: Allows you adjust the game's FOV.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\Rozebud-FOV_Adjust\icon.png
+- manifestVersion: 1
+  name: Nips-Brutal_Company_Plus
+  authorName: Nips
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Nips/Brutal_Company_Plus/
+  displayName: Brutal_Company_Plus
+  description: "A customizable hardcore mod that randomizes events ranging between
+    insanity and normal. (Based off Brutal Company By: 2018)"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Nips-Brutal_Company_Plus\3.4.0\icon.png

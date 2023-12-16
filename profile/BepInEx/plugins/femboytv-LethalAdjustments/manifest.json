@@ -1,9 +1,0 @@
-{
-  "name": "LethalAdjustments",
-  "version_number": "1.0.0",
-  "website_url": "https://femboy.tv",
-  "description": "Lets you adjust different internal values via config",
-  "dependencies": [
-    "BepInEx-BepInExPack-5.4.2100"
-  ]
-}

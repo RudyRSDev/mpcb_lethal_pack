@@ -1,3 +1,6 @@
+## v2.2.0 Shhhhh
+- Added a new mechanic to detect mimics
+
 ## v2.1.0 Easy mode
 - Added config options for easy mode and color blind mode
 - Small adjustments to default spawn rate, visual differences

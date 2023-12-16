@@ -8,19 +8,13 @@
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.1.0]
 [Info   :   BepInEx] 2 patcher plugins loaded
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
@@ -29,17 +23,14 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 72 plugins to load
+[Info   :   BepInEx] 70 plugins to load
 [Warning:   BepInEx] Plugin [EnemyScan 1.1.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [Late Company 1.0.4] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [LetMeLookDown 1.0.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [Suit Saver 1.0.2] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Suit Saver 1.1.2] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [HealthMetrics 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [FOV Adjust 1.1.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [Skinwalker Mod 1.0.8] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Equipment Tweaks 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [HDLethalCompany-Sligili 1.5.3] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [MoreEmotes-Sligili 1.1.2] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [MoreEmotes-Sligili 1.2.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Health Station mod 1.0.0.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Strange Objects 1.2.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Info   :   BepInEx] Loading [Terminal Api 1.3.0]
@@ -47,7 +38,6 @@
 [Info   :   BepInEx] Loading [EnemyScan 1.1.1]
 [Message:Terminal Api] Not in game, waiting to be in game to add list keyword.
 [Message:Terminal Api] Not in game, waiting to be in game to add enemies keyword.
-[Info   :   BepInEx] Loading [FPSSpectate 1.0.0]
 [Info   :   BepInEx] Loading [Fnaf Power Outage 1.0.1]
 [Info   :atg.FnafPowerOutage] Starting Fnaf Power Outage
 [Info   :atg.FnafPowerOutage] C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\atg-FnafPowerOutage\toreadormarch
@@ -85,7 +75,7 @@
 [Message:MelonLoader] 0 Mods loaded.
 [Message:MelonLoader] 
 [Error  :MelonLoader] Failed to Find SupportModules Directory!
-[Info   :   BepInEx] Loading [BetterTeleporter 1.0.0]
+[Info   :   BepInEx] Loading [BetterTeleporter 1.1.1]
 [Info   :BetterTeleporter] Plugin BetterTeleporter is loaded!
 [Info   :   BepInEx] Loading [Strange Objects 1.2.0.0]
 [Info   :   BepInEx] Loading [BetterClock 1.0.3]
@@ -97,17 +87,10 @@
 [Info   :BetterClock] 4 patches applied
 [Info   :   BepInEx] Loading [Boombox No Power 1.0.0.0]
 [Info   :BoomBox.BoomBoxNoPower] Boombox No Power has awoken
-[Info   :   BepInEx] Loading [BoomboxController 1.0.0]
-[Info   :BoomboxController]  /$$$$$$$                                    /$$$$$$$                             /$$$$$$                        /$$                         /$$ /$$                    
-[Info   :BoomboxController] | $$__  $$                                  | $$__  $$                           /$$__  $$                      | $$                        | $$| $$                    
-[Info   :BoomboxController] | $$  \ $$  /$$$$$$   /$$$$$$  /$$$$$$/$$$$ | $$  \ $$  /$$$$$$  /$$   /$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$ | $$| $$  /$$$$$$   /$$$$$$ 
-[Info   :BoomboxController] | $$$$$$$  /$$__  $$ /$$__  $$| $$_  $$_  $$| $$$$$$$  /$$__  $$|  $$ /$$/      | $$       /$$__  $$| $$__  $$|_  $$_/   /$$__  $$ /$$__  $$| $$| $$ /$$__  $$ /$$__  $$
-[Info   :BoomboxController] | $$__  $$| $$  \ $$| $$  \ $$| $$ \ $$ \ $$| $$__  $$| $$  \ $$ \  $$$$/       | $$      | $$  \ $$| $$  \ $$  | $$    | $$  \__/| $$  \ $$| $$| $$| $$$$$$$$| $$  \__/
-[Info   :BoomboxController] | $$  \ $$| $$  | $$| $$  | $$| $$ | $$ | $$| $$  \ $$| $$  | $$  >$$  $$       | $$    $$| $$  | $$| $$  | $$  | $$ /$$| $$      | $$  | $$| $$| $$| $$_____/| $$      
-[Info   :BoomboxController] | $$$$$$$/|  $$$$$$/|  $$$$$$/| $$ | $$ | $$| $$$$$$$/|  $$$$$$/ /$$/\  $$      |  $$$$$$/|  $$$$$$/| $$  | $$  |  $$$$/| $$      |  $$$$$$/| $$| $$|  $$$$$$$| $$      
-[Info   :BoomboxController] |_______/  \______/  \______/ |__/ |__/ |__/|_______/  \______/ |__/  \__/       \______/  \______/ |__/  |__/   \___/  |__/       \______/ |__/|__/ \_______/|__/      
+[Info   :   BepInEx] Loading [BrutalCompanyPlus 3.3.1]
+[Warning:BrutalCompanyPlus] Loaded Brutal Company Plus and applying patches.
 [Info   :   BepInEx] Loading [Configuration Manager 18.1]
-[Info   :   BepInEx] Loading [LC_API 2.1.1]
+[Info   :   BepInEx] Loading [LC_API 2.1.4]
 [Warning:    LC_API] 
 .____    _________           _____  __________ .___  
 |    |   \_   ___ \         /  _  \ \______   \|   | 
@@ -120,14 +103,12 @@
 [Info   :   BepInEx] Loading [Coroner 1.0.0]
 [Info   :   Coroner] Plugin Coroner (com.elitemastereric.coroner) is loaded!
 [Info   :   Coroner] Checking for LC_API...
-[Info   :   Coroner] LCAPI is present! LC_API:2.1.1
+[Info   :   Coroner] LCAPI is present! LC_API:2.1.4
 [Info   :   Coroner] Initializing DeathBroadcaster...
 [Info   :   Coroner] LC_API is present! Registering signature...
-[Info   :   BepInEx] Loading [MoreCompany 1.7.1]
+[Info   :   BepInEx] Loading [MoreCompany 1.7.2]
 [Info   :MoreCompany] Loading MoreCompany...
 [Info   :MoreCompany] Checking: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins/MoreCompanyCosmetics
-[Info   :MoreCompany] Creating cosmetics directory
-[Info   :MoreCompany] Loaded MoreCompany FULLY
 [Info   :MoreCompany] Read settings and cosmetics
 [Info   :MoreCompany] Loaded cosmetic: builtin.3dglasses from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.bunnyears from bundle
@@ -143,6 +124,7 @@
 [Info   :MoreCompany] Loaded cosmetic: builtin.outoforder from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.partyhat from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.plaguemask from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.propellerhat from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.eyeballs from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.rudolph from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.santahat from bundle
@@ -150,6 +132,7 @@
 [Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle
 [Info   :MoreCompany] Loading USER COSMETICS...
+[Info   :MoreCompany] Loaded MoreCompany FULLY
 [Info   :   BepInEx] Loading [EliteMasterEric's Wacky Cosmetics 1.0.0]
 [Info   :EliteMasterEric's Wacky Cosmetics] Plugin EliteMasterEric's Wacky Cosmetics (com.elitemastereric.wackycosmetics) is loaded!
 [Info   :EliteMasterEric's Wacky Cosmetics] Generating config entries for Wacky cosmetics.
@@ -161,15 +144,15 @@
 [Info   :EliteMasterEric's Wacky Cosmetics] Loaded Wacky cosmetic: wackycosmetics.toweringpillarofhats
 [Info   :EliteMasterEric's Wacky Cosmetics] Loaded Wacky cosmetic: wackycosmetics.valkyriehelm
 [Info   :   BepInEx] Loading [ShipLoot 1.0]
-[Info   :   BepInEx] Loading [Custom Sounds 1.3.0]
+[Info   :   BepInEx] Loading [Custom Sounds 2.1.2]
 [Info   :CustomSounds] Plugin CustomSounds is loaded!
 [Info   :CustomSounds] "hideManagerGameObject" value not correctly set. Fixing it now.
 [Info   :   BepInEx] Loading [Bigger Battery 1.0.2]
 [Info   :Bigger Battery] Plugin Bigger Battery-1.0.2 loaded!
 [Info   :   BepInEx] Loading [BetterLadders 1.2.2]
 [Info   :BetterLadders] BetterLadders loaded!
-[Info   :   BepInEx] Loading [MoreScreams 1.0.2]
-[Info   :   BepInEx] Loading [EmployeeAssignments 1.0.3]
+[Info   :   BepInEx] Loading [MoreScreams 1.0.3]
+[Info   :   BepInEx] Loading [EmployeeAssignments 1.0.4]
 [Info   :   BepInEx] Loading [LethalLib 0.6.2]
 [Info   : LethalLib] LethalLib loaded!!
 [Info   :   BepInEx] Loading [LethalThings 0.7.1]
@@ -187,7 +170,7 @@
 [Info   :   BepInEx] Loading [FasterItemDropship 1.2.0]
 [Info   :FasterItemDropship] BindingConfigs
 [Info   :FasterItemDropship] FasterItemDropship loaded
-[Info   :   BepInEx] Loading [HotbarPlus 1.3.1]
+[Info   :   BepInEx] Loading [HotbarPlus 1.3.2]
 [Info   :HotbarPlus] BindingConfigs
 [Info   :HotbarPlus] HotbarPlus loaded
 [Info   :   BepInEx] Loading [LetMeLookDown 1.0.1]
@@ -206,9 +189,7 @@
 [Info   :ReservedWalkieSlot] ReservedWalkieSlot loaded
 [Info   :   BepInEx] Loading [SkipToMultiplayerMenu 1.0.0]
 [Info   :SkipToMultiplayerMenu] SkipToMultiplayerMenu loaded
-[Info   :   BepInEx] Loading [HDLethalCompany-Sligili 1.5.3]
-[Info   :HDLethalCompany-Sligili] HDLethalCompany loaded
-[Info   :   BepInEx] Loading [Suit Saver 1.0.2]
+[Info   :   BepInEx] Loading [Suit Saver 1.1.2]
 [Warning:Persistent Purchases] Beginning transpilation of StartOfRound.ResetShip()
 [Info   :Persistent Purchases] Found ship object prefab opcode at 75 (1)
 [Info   :Persistent Purchases] Found ship object prefab opcode at 163 (1)
@@ -219,12 +200,21 @@
 [Info   :   BepInEx] Loading [Equipment Tweaks 1.0.0]
 [Info   :JPSilver.EquipmentTweaks] EquipmentTweaks is Awake
 [Info   :   BepInEx] Loading [Graphics Settings 1.3]
+[Info   :   BepInEx] Loading [BoomboxController 1.1.0]
+[Info   :BoomboxController]  /$$$$$$$                                    /$$$$$$$                             /$$$$$$                        /$$                         /$$ /$$                    
+[Info   :BoomboxController] | $$__  $$                                  | $$__  $$                           /$$__  $$                      | $$                        | $$| $$                    
+[Info   :BoomboxController] | $$  \ $$  /$$$$$$   /$$$$$$  /$$$$$$/$$$$ | $$  \ $$  /$$$$$$  /$$   /$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$ | $$| $$  /$$$$$$   /$$$$$$ 
+[Info   :BoomboxController] | $$$$$$$  /$$__  $$ /$$__  $$| $$_  $$_  $$| $$$$$$$  /$$__  $$|  $$ /$$/      | $$       /$$__  $$| $$__  $$|_  $$_/   /$$__  $$ /$$__  $$| $$| $$ /$$__  $$ /$$__  $$
+[Info   :BoomboxController] | $$__  $$| $$  \ $$| $$  \ $$| $$ \ $$ \ $$| $$__  $$| $$  \ $$ \  $$$$/       | $$      | $$  \ $$| $$  \ $$  | $$    | $$  \__/| $$  \ $$| $$| $$| $$$$$$$$| $$  \__/
+[Info   :BoomboxController] | $$  \ $$| $$  | $$| $$  | $$| $$ | $$ | $$| $$  \ $$| $$  | $$  >$$  $$       | $$    $$| $$  | $$| $$  | $$  | $$ /$$| $$      | $$  | $$| $$| $$| $$_____/| $$      
+[Info   :BoomboxController] | $$$$$$$/|  $$$$$$/|  $$$$$$/| $$ | $$ | $$| $$$$$$$/|  $$$$$$/ /$$/\  $$      |  $$$$$$/|  $$$$$$/| $$  | $$  |  $$$$/| $$      |  $$$$$$/| $$| $$|  $$$$$$$| $$      
+[Info   :BoomboxController] |_______/  \______/  \______/ |__/ |__/ |__/|_______/  \______/ |__/  \__/       \______/  \______/ |__/  |__/   \___/  |__/       \______/ |__/|__/ \_______/|__/      
 [Info   :   BepInEx] Loading [LCBetterSaves 1.4.0]
 [Info   :LCBetterSaves] Plugin LCBetterSaves is loaded!
-[Info   :   BepInEx] Loading [LC Sound Tool 1.2.2]
+[Info   :   BepInEx] Loading [LC Sound Tool 1.3.2]
 [Info   :LCSoundTool] Plugin LCSoundTool is loaded!
-[Info   :   BepInEx] Loading [LethalAdjustments 1.0.0]
-[Info   :LethalAdjustments] Plugin LethalAdjustments is loaded!
+[Info   :   BepInEx] Loading [LCUltrawide 1.1.1]
+[Info   :LCUltrawide] Plugin LCUltrawide is loaded!
 [Info   :   BepInEx] Loading [LethalAPI.TerminalCommands 1.1.0]
 [Info   :LethalAPI.TerminalCommands] LethalAPI.TerminalCommands is loading...
 [Info   :LethalAPI.TerminalCommands] Installing patches
@@ -234,7 +224,7 @@
 [Info   :LethalPosters] Plugin LethalPosters (1.0.0) is loaded!
 [Info   :   BepInEx] Loading [HealthMetrics 1.0.0]
 [Info   :Matsuura.HealthMetrics] HealthMetrics Awake
-[Info   :   BepInEx] Loading [HornMoan 2.0.0]
+[Info   :   BepInEx] Loading [HornMoan 2.1.0]
 [Info   :MetalPipeSFX.HornMoan] The Moaning is Loading
 [Info   :MetalPipeSFX.HornMoan] Loaded The Moaning Successfully
 [Info   :   BepInEx] Loading [Hide Chat 1.0.0]
@@ -250,26 +240,24 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 
 [Info   :   BepInEx] Loading [Jump Delay Patch 0.0.0.1]
 [Info   :Jump Delay Patch] Plugin JumpDelayPatch is loaded!
-[Info   :   BepInEx] Loading [MoreEmotes-Sligili 1.1.2]
+[Info   :   BepInEx] Loading [MoreEmotes-Sligili 1.2.0]
 [Info   :MoreEmotes-Sligili] MoreEmotes loaded
 [Info   :   BepInEx] Loading [MoreItems 1.0.0]
 [Info   : MoreItems] Plugin MoreItems is loaded!
 [Info   :   BepInEx] Loading [MovementCompany 1.0.0]
 [Info   :MovementCompany] Plugin MovementCompany is loaded!
-[Info   :   BepInEx] Loading [BepInUtils 1.1.0]
+[Info   :   BepInEx] Loading [BepInUtils 1.2.0]
 [Info   :BepInUtils] System loaded.
-[Info   :   BepInEx] Loading [Glow Steps 1.1.1]
+[Info   :   BepInEx] Loading [Glow Steps 1.1.2]
 [Info   :Glow Steps] [Production] Patched class FootstepPatcher, containing 2 methods.
 [Info   :   BepInEx] Loading [Health Station mod 1.0.0.1]
 [Info   :Octolar.Healthstation] Octolar HealthStation mod is now active
-[Info   :   BepInEx] Loading [Better Item Scan 2.0.0.0]
+[Info   :   BepInEx] Loading [Better Item Scan 2.1.0.0]
 [Info   :PopleZoo.BetterItemScan] Plugin BetterItemScan is loaded!
 [Info   :   BepInEx] Loading [PushCompany 1.2.0]
 [Info   :PushCompany] PushCompany has initialized!
-[Info   :   BepInEx] Loading [MoreMonsters 1.1.1]
-[Info   :Quokka.MoreMonsters]  [+] GUI Loaded
-[Info   :   BepInEx] Loading [Helmet_Cameras 2.1.3]
-[Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.3!
+[Info   :   BepInEx] Loading [Helmet_Cameras 2.1.5]
+[Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.5!
 [Info   :Helmet_Cameras] --------Helmet camera patch done.---------
 [Info   :   BepInEx] Loading [FOV Adjust 1.1.1]
 [Info   :Rozebud.FovAdjust] Starting.
@@ -295,28 +283,27 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Thumper VALUE LOADED FROM CONFIG: [True]
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceLineFrequency VALUE LOADED FROM CONFIG: [1]
 [Info   :RugbugRedfern.SkinwalkerMod] Skinwalker Mod Object Initialized
-[Info   :   BepInEx] Loading [SpectateEnemy 1.3.0]
+[Info   :   BepInEx] Loading [SpectateEnemy 1.5.0]
 [Info   :SpectateEnemy] SpectateEnemy loaded!
-[Info   :   BepInEx] Loading [Bonk Hit SFX 1.0.3]
-[Info   :sunnobunno.bonkhitsfx] BonkHitSFX is loading.
-[Info   :sunnobunno.bonkhitsfx] BonkHitSFX is loaded. Ow.
-[Info   :   BepInEx] Loading [Scaling Start Credits 1.0.0]
+[Info   :   BepInEx] Loading [Bonk Hit SFX 1.0.4]
+[Info   :sunnobunno.bonkhitsfx] sunnobunno.bonkhitsfx is loading.
+[Info   :sunnobunno.bonkhitsfx] sunnobunno.bonkhitsfx is loaded. Ow.
+[Info   :   BepInEx] Loading [Scaling Start Credits 1.0.1]
 [Info   :sunnobunno.scalingstartcredits] sunnobunno.scalingstartcredits is loading.
 [Info   :sunnobunno.scalingstartcredits] sunnobunno.scalingstartcredits is loaded.
-[Info   :   BepInEx] Loading [Yippee tbh mod 1.2.1]
-[Info   :sunnobunno.YippeeMod] Yippee Mod is loading.
-[Info   :sunnobunno.YippeeMod] C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\sunnobunno-YippeeMod\yippeesound
-[Info   :sunnobunno.YippeeMod] Yippee Mod is loaded. Yippee!!!
+[Info   :   BepInEx] Loading [Yippee tbh mod 1.2.2]
+[Info   :sunnobunno.YippeeMod] sunnobunno.YippeeMod is loading.
+[Info   :sunnobunno.YippeeMod] sunnobunno.YippeeMod is loaded. Yippee!!!
 [Info   :   BepInEx] Loading [Remote Remaster 1.0.1.0]
 [Info   :SZAKI.RemoteRemaster] Successfully awaken!
 [Info   :   BepInEx] Loading [NameplateTweaks 1.0.2]
 [Info   :NameplateTweaks] Loading taffyko.NameplateTweaks
-[Info   :   BepInEx] Loading [Late Company 1.0.4]
+[Info   :   BepInEx] Loading [Late Company 1.0.6]
 [Info   :Late Company] Late Company loaded!
 [Info   :   BepInEx] Loading [Terminal Extras 1.0.1]
-[Info   :   BepInEx] Loading [Mimics 1.1.2]
+[Info   :   BepInEx] Loading [Mimics 2.2.0]
 [Info   :    Mimics] Plugin Mimics is loaded!
-[Info   :   BepInEx] Loading [More Suits 1.3.3]
+[Info   :   BepInEx] Loading [More Suits 1.4.1]
 [Info   :More Suits] Plugin More Suits is loaded!
 [Info   :   BepInEx] Loading [LoudMeter 1.0.1]
 [Message:   BepInEx] Chainloader startup complete
@@ -332,65 +319,27 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Info   : Unity Log] Overriding float
 [Info   : Unity Log] Gamma changed
 [Info   : Unity Log] Set gamma to new value: 0; (0.00, 0.00, 0.00, 0.00) (True)
+[Info   :BrutalCompanyPlus] Attempting to Initialize BrutalPlus
+[Warning:BrutalCompanyPlus] Brutal Plus is Awake
 [Message:    LC_API] BundleAPI will now load all asset bundles...
 [Message:    LC_API] BundleAPI got no assets to load from legacy directory
-[Message:    LC_API] BundleAPI got 20 AssetBundles to load!
+[Message:    LC_API] BundleAPI got 6 AssetBundles to load!
 [Error  : Unity Log] The AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\atg-FnafPowerOutage\toreadormarch' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\atg-FnafPowerOutage\toreadormarch
-[Message:    LC_API] Got asset for load: assets/audionetworkhandler.prefab
-[Message:    LC_API] Loaded asset: AudioNetworkHandler
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/EliteMasterEric-Coroner/Coroner.zip
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\EliteMasterEric-Coroner\Coroner.zip'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\EliteMasterEric-Coroner\Coroner.zip
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/MetalPipeSFX-HornMoan/Moaning1.mp3
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/MetalPipeSFX-HornMoan/MoaningFar.mp3
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\MoaningFar.mp3'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\MetalPipeSFX-HornMoan\MoaningFar.mp3
 [Error  : Unity Log] The AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\sunnobunno-BonkHitSFX\bonkhitsfx' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\sunnobunno-BonkHitSFX\bonkhitsfx
 [Error  : Unity Log] The AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\sunnobunno-YippeeMod\yippeesound' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\sunnobunno-YippeeMod\yippeesound
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/TheBeeTeam-PersistentPurchases/PersistentPurchases.pdb
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\TheBeeTeam-PersistentPurchases\PersistentPurchases.pdb'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\TheBeeTeam-PersistentPurchases\PersistentPurchases.pdb
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/BepInEx_Unofficial-BepInEx_ConfigurationManager/ConfigurationManager/ConfigurationManager.xml
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\BepInEx_Unofficial-BepInEx_ConfigurationManager\ConfigurationManager\ConfigurationManager.xml'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\BepInEx_Unofficial-BepInEx_ConfigurationManager\ConfigurationManager\ConfigurationManager.xml
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/BepInEx_Unofficial-BepInEx_ConfigurationManager/ConfigurationManager/ConfigurationManagerAttributes.cs
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\BepInEx_Unofficial-BepInEx_ConfigurationManager\ConfigurationManager\ConfigurationManagerAttributes.cs'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\BepInEx_Unofficial-BepInEx_ConfigurationManager\ConfigurationManager\ConfigurationManagerAttributes.cs
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/BepInEx_Unofficial-BepInEx_ConfigurationManager/ConfigurationManager/LICENSE
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\BepInEx_Unofficial-BepInEx_ConfigurationManager\ConfigurationManager\LICENSE'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\BepInEx_Unofficial-BepInEx_ConfigurationManager\ConfigurationManager\LICENSE
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/Evaisa-LethalLib/LethalLib/LethalLib.pdb
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Evaisa-LethalLib\LethalLib\LethalLib.pdb'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Evaisa-LethalLib\LethalLib\LethalLib.pdb
 [Error  : Unity Log] The AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Evaisa-LethalThings\LethalThings\lethalthings' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Evaisa-LethalThings\LethalThings\lethalthings
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/Evaisa-LethalThings/LethalThings/LethalThings.pdb
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Evaisa-LethalThings\LethalThings\LethalThings.pdb'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Evaisa-LethalThings\LethalThings\LethalThings.pdb
-[Error  : Unity Log] The AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Sligili-HDLethalCompany\HDLethalCompany\hdlethalcompany' can't be loaded because another AssetBundle with the same files is already loaded.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Sligili-HDLethalCompany\HDLethalCompany\hdlethalcompany
 [Error  : Unity Log] The AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Sligili-More_Emotes\MoreEmotes\animationsbundle' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Sligili-More_Emotes\MoreEmotes\animationsbundle
 [Error  : Unity Log] The AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Sligili-More_Emotes\MoreEmotes\animatorbundle' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Sligili-More_Emotes\MoreEmotes\animatorbundle
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/FutureSavior-CrankThatJester/CustomSounds/CrankThatJester/JackInTheBoxTheme.wav
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\JackInTheBoxTheme.wav'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\JackInTheBoxTheme.wav
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/FutureSavior-CrankThatJester/CustomSounds/CrankThatJester/Pop1.wav
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\Pop1.wav'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\Pop1.wav
-[Error  : Unity Log] Unable to read header from archive file: C:/Users/rudy/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/MPCB Modpack/BepInEx/plugins/FutureSavior-CrankThatJester/CustomSounds/CrankThatJester/Scream1.wav
-[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\Scream1.wav'.
-[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\Scream1.wav
 [Message:    LC_API] BundleAPI finished loading all assets.
 [Message:    LC_API] BundleAPI finished loading all assets.
 [Info   :    LC_API] LC_API Started!
-[Info   :CustomSounds] Temporary folder: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Clementinise-CustomSounds\CustomSounds\Temp
+[Info   :CustomSounds] Temporary folder: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\Clementinise-CustomSounds\CustomSounds\Temporary-Sync
 [Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\JackInTheBoxTheme.wav!
 [Debug  :LCSoundTool] Loading AudioClip C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\JackInTheBoxTheme.wav from legacy path: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\JackInTheBoxTheme.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\JackInTheBoxTheme.wav with length of 44.072!
@@ -404,6 +353,7 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB Modpack\BepInEx\plugins\FutureSavior-CrankThatJester\CustomSounds\CrankThatJester\Scream1.wav with length of 27.47!
 [Info   :CustomSounds] [CrankThatJester] Scream1 sound replaced!
 [Info   :EmployeeAssignments] Plugin EmployeeAssignments is loaded!
+[Warning:LCSoundTool] Networking disabled. Mod in fully client side mode, but no networked actions can take place!
 [Info   :CustomSounds] Created AudioNetworkHandler prefab
 [Info   :SkipToMultiplayerMenu] Skipping to MainMenu scene.
 [Error  : Unity Log] Panel label not found.
@@ -430,28 +380,18 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Info   : Unity Log] Found file: LCSaveFile1
 [Info   : Unity Log] Found file: LCSaveFile2
 [Info   : Unity Log] Found file: LCSaveFile3
+[Info   : Unity Log] Found LGU file: LGU_4
+[Info   : Unity Log] Found LGU file: LGU_5
 [Info   : Unity Log] Renamed LCSaveFile0 to TempFile0
 [Info   : Unity Log] Renamed LCSaveFile1 to TempFile1
 [Info   : Unity Log] Renamed LCSaveFile2 to TempFile2
 [Info   : Unity Log] Renamed LCSaveFile3 to TempFile3
+[Info   : Unity Log] Renamed LGU_4 to LGUTempFile4
+[Info   : Unity Log] Renamed LGU_5 to LGUTempFile5
 [Info   : Unity Log] Renamed TempFile0 to LCSaveFile0
 [Info   : Unity Log] Renamed TempFile1 to LCSaveFile1
 [Info   : Unity Log] Renamed TempFile2 to LCSaveFile2
 [Info   : Unity Log] Renamed TempFile3 to LCSaveFile3
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Game Files/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   : Unity Log] [Netcode] ShutdownInternal
-[Info   : Unity Log] Leaving current lobby
-[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
-[Error  :CustomSounds] Failed to destroy network handler
-[Info   : Unity Log] Server is not active; quitting to main menu
-[Info   : Unity Log] Set version num
-[Info   : Unity Log] Changing gamma
-[Info   : Unity Log] override float value: 0
-[Info   : Unity Log] Overriding float
-[Info   : Unity Log] Gamma changed
-[Info   : Unity Log] Set gamma to new value: 0; (0.00, 0.00, 0.00, 0.00) (True)
-[Info   : Unity Log] unsubscribing from steam callbacks
-[Info   :Quokka.MoreMonsters] [-] The GUILoader was destroyed.
-[Message:    LC_API] A plugin has set your game to only allow you to play with other people who have mods!
-[Error  : LoudMeter] Creating new GameObject to host LoudnessMeter...
+[Info   : Unity Log] Renamed LGUTempFile4 to LGU_4
+[Info   : Unity Log] Renamed LGUTempFile5 to LGU_5
+[Error  : Unity Log] Error occurred while refreshing save buttons: Input string was not in a correct format.
