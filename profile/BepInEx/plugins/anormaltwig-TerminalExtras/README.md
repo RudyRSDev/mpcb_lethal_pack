@@ -7,4 +7,4 @@ Extra commands for the terminal
 - Door - Toggles the door.
 - Teleport - Activates the teleporter.
 - Lights - Toggle the lights.
-
+- Launch - Pulls the ship lever.

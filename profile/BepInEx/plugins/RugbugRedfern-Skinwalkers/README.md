@@ -3,6 +3,8 @@
 ## Information
 Enemies will now learn the voices of your friends and be able to repeat them.
 
+## Discord server: https://discord.gg/8VXmnSfENj
+
 ## Configuration
 All players need the mod installed. This is a client-side mod. Make sure your mic is enabled in-game.
 
@@ -17,7 +19,38 @@ Playtesting by Dubscr
 
 https://www.youtube.com/dubscr
 
+## FAQ
+
+### Does this mod use AI?
+No! There is no AI involved at all in this mod.
+
+### How does it work?
+It records audio and plays it back at random times from enemies that you choose. Often times it results in some pretty creepy coincidences!
+
+### Can I play alone?
+No, you need friends.
+
+### Does it fill up my hard drive with audio clips?
+No, audio clips are automatically deleted.
+
+### Does this mod have any conflicts?
+You cannot have the mod Lethal Progression installed, it conflicts with this mod.
+
 ## Changelog
+
+### 2.0.1
+- Recompiled for BepInEx 5.4.2100 for Thunderstore compatibility
+
+### 2.0.0 [SPOILERS]
+- Enemies no longer play voice lines when dead
+- Removed some unecessary logs
+- Added Masked and Nutcracker to the config
+
+### 1.0.8
+- Updated for Lethal Company v45
+- Actually fixed the bug where audio would randomly play outside (for alive players)
+- Removed the 404 error
+- Removed the LC_API dependency
 
 ### 1.0.7
 - Fixed an issue where audio would randomly play outside

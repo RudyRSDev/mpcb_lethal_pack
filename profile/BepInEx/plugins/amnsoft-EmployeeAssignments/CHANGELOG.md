@@ -10,3 +10,8 @@
 + Fixed 'Hunt & Kill' Enemy type selection, no more unkillable targets!
 + Fixed 'Hunt & Kill' Enemy placement, You might have to look a little harder for the target.
 + No more assignments on the Company moon.
+# v1.0.4
++ Added new 'Repair Valve' Assignment
++ Implemented new Active Assignment UI
+# v1.0.5
++ Updated readme

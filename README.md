@@ -6,7 +6,7 @@
 - Select Game or Make it Default
 - Press `Import/Update`
 - Press `Import new profile`
-- Press `From code` and input `018c4cc2-0d5c-2da4-3b40-af5da357cc52`
+- Press `From code` and input `018c70c9-0aef-059e-618a-7b41dabc41a5`
 
 ### Mac
 - Use [Whiskey](https://github.com/Whisky-App/Whisky) to install Lethal Comapny

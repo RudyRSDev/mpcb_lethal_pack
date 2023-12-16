@@ -1,3 +1,21 @@
+-   **1.1.0**
+
+	-	Fixed the bug that the track was not uploaded via SoundCloud.
+	-	Fixed a bug with displaying the name of the playing track.
+	-	Prohibited entering links with search_query value (example link: https://www.youtube.com/results?search_query=test).
+	-	Added automatic deletion of downloaded music when you quit the game.
+
+-   **1.0.9**
+
+	-	Fixed a bug with displaying the name of the playing track.
+	-	Fixed a bug when single tracks were not working after playlist.
+
+-   **1.0.8**
+
+	-	The track uploading has been optimised.
+	-	Added support for YouTube playlists.
+	-	Added command to switch tracks (for playlists).
+
 -   **1.0.7**
 
 	-	Added track position change in the boombox.

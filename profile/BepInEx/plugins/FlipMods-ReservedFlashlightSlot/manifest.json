@@ -1,10 +1,10 @@
 {
     "name": "ReservedFlashlightSlot",
-    "version_number": "1.4.4",
+    "version_number": "1.4.5",
     "website_url": "",
     "description": "Gives a free, dedicated Flashlight slot on the right side of your screen. You can press [F] to activate the Flashlight at anytime.",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100",
-        "FlipMods-ReservedItemSlotCore-1.4.3"
+        "FlipMods-ReservedItemSlotCore-1.4.4"
     ]
 }

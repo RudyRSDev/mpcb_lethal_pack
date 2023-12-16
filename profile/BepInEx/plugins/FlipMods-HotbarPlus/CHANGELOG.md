@@ -30,3 +30,7 @@ If the host has the number of hotbar slots set to 4 in their config, then other 
 + Fixed the issue preventing players from using their hotkeys to swap hotbar slots, or emoting with the rebound keys.
 # 1.3.0
 + Forgot to update the dll.
+# 1.3.1
++ Updated to support new game update
+# 1.3.2
++ Fixed bug with "fixed" emote rebinds not working.

@@ -15,13 +15,25 @@ OR
 The mod automatically replaces game sounds with the .wav files from the "CustomSounds" folder. Make sure your file names match the in-game sounds you want to replace.
 
 ## Terminal Commands:
-- `CUSTOMSOUNDS LIST`: Displays all currently loaded sounds
-- `CUSTOMSOUNDS RELOAD`: Reloads and applies sounds from the 'CustomSounds' folder and its subfolders
-- `CUSTOMSOUNDS REVERT`: Unloads all custom sounds and restores original game sounds
-- `CUSTOMSOUNDS HELP`: Provides a list of all CustomSounds commands
+- `CUSTOMSOUNDS LIST/L`: Displays all currently loaded sounds
+- `CUSTOMSOUNDS RELOAD/RL`: Reloads and applies sounds from the 'CustomSounds' folder and its subfolders
+- `CUSTOMSOUNDS REVERT/RV`: Unloads all custom sounds and restores original game sounds
+- `CUSTOMSOUNDS HELP/H`: Provides a list of all CustomSounds commands
 
-## Tips
-You can utilize [LCSoundTool](https://thunderstore.io/c/lethal-company/p/no00ob/LCSoundTool/) and its F5 logging feature to identify the name of the audio you want to replace.
+## Syncing Custom Sounds with Clients (Experimental Feature):
+CustomSounds now introduces an experimental feature allowing the host to sync their custom sounds with all clients in the lobby. This feature ensures that everyone in the game experiences the same custom audio environment. However, it requires all clients to have the CustomSounds mod installed.
+
+### How to Sync:
+As a host, you can initiate the sync process through terminal commands. This will send your custom sounds to all connected clients who have CustomSounds installed.
+
+### Terminal Commands for Sync:
+- `CUSTOMSOUNDS SYNC/S`: Starts the synchronization process of custom sounds with all clients.
+- `CUSTOMSOUNDS FORCE-UNSYNC/FU`: Forces all clients to unsync and revert to their original sounds.
+- `CUSTOMSOUNDS UNSYNC/U`: Allows clients to manually unsync from the host's custom sounds and revert to their original audio setup.
+
+When the host initiates a sync, clients will receive a notification to accept the sync request. On acceptance, custom sounds from the host will be downloaded and applied to the client's game.
+
+***Note:*** *The sync feature is experimental and might not work as expected in all scenarios. Feedback and bug reports are appreciated to improve this functionality!*
 
 ## For Sound Packs Creator
 To make installation easier, you will need to organize your release as follows:
@@ -38,3 +50,11 @@ To make installation easier, you will need to organize your release as follows:
 ```
 
 *For a better understanding, you can refer to the folder structure of [MinecraftCompany Doors](https://thunderstore.io/c/lethal-company/p/Clementinise/MinecraftCompany_Doors/)*
+
+## Tips
+You can utilize [LCSoundTool](https://thunderstore.io/c/lethal-company/p/no00ob/LCSoundTool/) and its F5 logging feature to identify the name of the audio you want to replace.
+
+## Credits
+
+### ```Tester```
+- Luukex (@luukex)

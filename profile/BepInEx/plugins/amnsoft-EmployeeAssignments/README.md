@@ -18,3 +18,6 @@ Once returned the value of the item will be adjuted to show the correct value of
 
 # Hunt & Kill Monster
 You will be tasked with hunting down an enemy, you will be told the enemy type you must track down at the start of the round, If you kill the assigned enemy it will drop a reward regardless of the player who killed it.
+
+# Repair Broken Valve
+The company sensors have detected a valve leak, its location has been sent to your new Assignment Tracker Interface. Locate the valve and repair it. Once repaired a reward will drop.

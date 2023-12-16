@@ -26,3 +26,7 @@
 # 1.4.4
 + Fixed some cases where the walkie mesh's active state was incorrect.<br>
 I will re-add the mesh to the local player when I get a good position for it.
+# 1.4.5
++ Should be able to activate the walkie again with LMB when currently held.
+# 1.4.6
++ Updated dependency.

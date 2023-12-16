@@ -1,6 +1,6 @@
 {
     "name": "HealthMetrics",
-    "version_number": "1.0.0",
+    "version_number": "1.0.2",
     "website_url": "",
     "description": "Add a simple health counter on your HUD",
     "dependencies": [

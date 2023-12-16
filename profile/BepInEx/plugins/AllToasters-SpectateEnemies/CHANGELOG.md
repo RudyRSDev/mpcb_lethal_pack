@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.5
+- Added the ability to spectate masked players
+- Added a message that is displayed when there are no enemies available to spectate
+- When spectating enemies for the first time in a round, the mod will now spectate the closest enemy to the player you are currently spectating
+- Fixed another issue that would allow you to continue spectating enemies after the game ended
+
+## v1.4
+- Updated to support v45
+- Fixed mod keybinds not working in the latest version
+- Fixed keybind text not displaying in the latest version
+- Fixed an issue that would cause the flashlight to remain on after the game ended
+- Fixed an issue that would allow you to continue spectating enemies after the game ended
+- Fixed an issue that would prevent the flashlight from being toggled after a vote to leave has been initiated
+
 ## v1.3
 - "Added" a toggleable flashlight to the spectator camera (one already exists...it just wasn't enabled)
    - The flashlight can be toggled by clicking RMB

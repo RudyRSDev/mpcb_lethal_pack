@@ -1,6 +1,6 @@
 {
 	"name": "TerminalExtras",
-	"version_number": "1.0.0",
+	"version_number": "1.0.1",
 	"description": "Extra commands for the terminal.",
 	"website_url": "https://github.com/ANormalTwig/LC-TerminalExtras",
 	"dependencies": [

@@ -1,11 +1,15 @@
-# Mimics v1.1.1
+# Mimics v2.1.0
 ### Adds a dangerous new monster to the game. Can you figure out what's real or will you be devoured?
 
 ## Information
-Mimics disguise themselves as one thing in particular. Each mimic has one random imperfection from a pool of several imperfections that let you tell it apart from its regular counterpart. If you guess wrong, there's no escape.
+Mimics always disguise themselves as one thing in particular. There are several strategies for distinguishing and surviving mimics, but you'll have to discover them for yourself.
+<details>
+  <summary>Hint (spoiler):</summary>
+Try using different equipment!
+</details>
 
 ## Configuration
-Mimic spawn rate and difficulty can be modified through the config file generated after launching the mod at least once. I recommend turning the difficulty up to max.
+Mimic spawn rate, volume, and difficulty can be modified through the config file generated after launching the mod at least once. This includes an easy mode (similar to earlier versions of the mod) and color blind mode.
 
 ## Credits
 Modeling, texturing, animation, and sound design by Graelyth.

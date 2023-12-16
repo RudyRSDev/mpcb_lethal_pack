@@ -40,3 +40,5 @@ This will help with future syncing with clients not uses these mods, but will li
 + Fixed (again?) being able to switch to your reserved hotbar while holding a two-handed item.
 + Improved logic for swapping between hotbars, or preventing you, while in certain animations or events.
 + Removed old debug logs.
+# 1.4.4
++ Minor fixes.

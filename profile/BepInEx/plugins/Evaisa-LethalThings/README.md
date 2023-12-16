@@ -29,7 +29,11 @@
 	- Meows.  
 	- Plays a silly little song.  
 	- Does a silly little dance.  
-![Maxwell](https://i.imgur.com/nccQTQy.png)
+![Maxwell](https://i.imgur.com/nccQTQy.png)  
+
+- Glizzy  
+	- Can be thrown at colleagues.  
+![Glizzy](https://i.imgur.com/OQUi2hq.png)  
   
 ## Store items
 - Toy Hammer
@@ -98,7 +102,7 @@
 	- Textures  
 
 # Latest Changes  
-- Updated maxwell (funny)  
-- Added audio volume config file.  
-- Fixed Boomba map dot  
-	
+- Glizzy gobbler update.  
+- Arson go chompy  
+- Recompiled assets against latest update.   
+- Fixed glizzy scan name.

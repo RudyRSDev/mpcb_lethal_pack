@@ -21,10 +21,11 @@ There are currently two translations available:
 3. Changing the music volume
 4. Also you can turn on/off the battery of the boombox in configuration
 5. Change the position of the track using the command
+6. Support for YouTube playlists
 
 ### Supported links:
 
-- Youtube links (example: https://www.youtube.com/watch?v=CNJWynL39pA)
+- Youtube single links & playlists (example: https://www.youtube.com/watch?v=CNJWynL39pA | example playlist: https://www.youtube.com/playlist?list=PL7PWSo6d6CNWAJ4n45bHnMWAfPD_tpb_S)
 - SoundCloud links (example: https://soundcloud.com/creeper-hunter100/2-doorway-of-summer?si=30745fc87646428282553b73c8cce17a)
 - Links to downloadable mp3 files (example: https://www.looperman.com/media/loops/3618815/looperman-l-3618815-0323177-ion-even-know.mp3)
 
@@ -34,11 +35,13 @@ There are currently two translations available:
 ```
 /bhelp - View all commands
 
-/bplay - Play music
+/bplay "url" - Play music
 
-/btime - Place video position (example: /btime 1:20)
+/bvolume "volume number" - Change boombox volume (example: /bvolume 50)
 
-/bvolume - Change boombox volume
+/btime "timecode" - Place track position (example: /btime 1:20)
+
+/btrack "track number" - Switch to another track from a playlist (example: /btrack 2)
 ```
 
 ### Special thanks to all my friends and teammates:

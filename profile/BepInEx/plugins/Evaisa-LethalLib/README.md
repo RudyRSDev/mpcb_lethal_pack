@@ -12,5 +12,4 @@ Currently includes:
 
 # Recent Changes 
   
-- Added full custom dungeon support for Dungeon API  
-	- Requires scriptable objects / prefabs which are set-up correct.  
+- Fixed issue with custom monster logs showing up multiple times.

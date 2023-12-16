@@ -4,6 +4,10 @@ Get the whole collection in one mod [ViViKoCosmetics](https://thunderstore.io/c/
 
 ## Changelog:
 
+### v1.0.2
+
+- Updated deps
+
 ### v1.0.1
 
 - Updated icon

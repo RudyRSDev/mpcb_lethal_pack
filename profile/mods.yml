@@ -36,7 +36,7 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 0
+    patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\notnotnotswipez-MoreCompany\icon.png
@@ -80,7 +80,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 4
+    patch: 6
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\anormaltwig-LateCompany\icon.png
@@ -89,7 +89,8 @@
   authorName: x753
   websiteUrl: https://thunderstore.io/c/lethal-company/p/x753/More_Suits/
   displayName: More_Suits
-  description: Adds more suits to choose from, and allows you to customize them!
+  description: Adds more suits to choose from, and can be used as a library to
+    load your own suits!
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -101,33 +102,11 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
-    patch: 3
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\x753-More_Suits\icon.png
-- manifestVersion: 1
-  name: Rozebud-FOV_Adjust
-  authorName: Rozebud
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Rozebud/FOV_Adjust/
-  displayName: FOV_Adjust
-  description: Allows you adjust the game's FOV.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
+    minor: 4
     patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\Rozebud-FOV_Adjust\icon.png
+    Modpack\BepInEx\plugins\x753-More_Suits\icon.png
 - manifestVersion: 1
   name: NotAtomicBomb-TerminalApi
   authorName: NotAtomicBomb
@@ -145,8 +124,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
-    patch: 2
+    minor: 4
+    patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\NotAtomicBomb-TerminalApi\icon.png
@@ -215,7 +194,7 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 0
+    patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\FlipMods-HotbarPlus\icon.png
@@ -282,8 +261,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 0
+    minor: 1
+    patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\SirTyler-BetterTeleporter\icon.png
@@ -327,7 +306,7 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
+    minor: 2
     patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -347,13 +326,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - Ozone-BepInUtils-1.1.0
+    - Ozone-BepInUtils-1.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Ozone-Glow_Steps\icon.png
@@ -373,8 +352,8 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 1
-    patch: 1
+    minor: 2
+    patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\2018-LC_API\icon.png
@@ -532,7 +511,7 @@
   versionNumber:
     major: 2
     minor: 1
-    patch: 3
+    patch: 5
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\RickArg-Helmet_Cameras\icon.png
@@ -555,7 +534,7 @@
   versionNumber:
     major: 1
     minor: 4
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
@@ -579,7 +558,7 @@
   versionNumber:
     major: 1
     minor: 4
-    patch: 4
+    patch: 6
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
@@ -597,13 +576,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.4.3
+    - FlipMods-ReservedItemSlotCore-1.4.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 4
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
@@ -640,12 +619,13 @@
   packageType: other
   installMode: managed
   loaders: []
-  dependencies: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
+    minor: 5
     patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -699,7 +679,7 @@
   authorName: Evaisa
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/
   displayName: LethalLib
-  description: My personal modding tools for Lethal Company
+  description: My modding tools for Lethal Company
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -713,7 +693,7 @@
   versionNumber:
     major: 0
     minor: 6
-    patch: 0
+    patch: 3
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Evaisa-LethalLib\icon.png
@@ -757,7 +737,7 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
+    minor: 1
     patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -801,8 +781,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 7
+    minor: 1
+    patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\KoderTeh-Boombox_Controller\icon.png
@@ -825,7 +805,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\egeadam-MoreScreams\icon.png
@@ -846,9 +826,9 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
+    major: 2
     minor: 1
-    patch: 1
+    patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\x753-Mimics\icon.png
@@ -914,7 +894,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\sunnobunno-ScalingStartCredits\icon.png
@@ -1033,30 +1013,7 @@
   authorName: femboytv
   websiteUrl: https://thunderstore.io/c/lethal-company/p/femboytv/LethalPosters/
   displayName: LethalPosters
-  description: Allows for editing of posters inside of the ship
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 8
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\femboytv-LethalPosters\icon.png
-- manifestVersion: 1
-  name: no00ob-LCSoundTool
-  authorName: no00ob
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/no00ob/LCSoundTool/
-  displayName: LCSoundTool
-  description: Let's you easily load audio files, replace any in game audio clip
-    and log any audio playback into console.
+  description: COMPATIBLE WITH v45. Allows for editing of posters inside of the ship
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1069,6 +1026,29 @@
   versionNumber:
     major: 1
     minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
+    Modpack\BepInEx\plugins\femboytv-LethalPosters\icon.png
+- manifestVersion: 1
+  name: no00ob-LCSoundTool
+  authorName: no00ob
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/no00ob/LCSoundTool/
+  displayName: LCSoundTool
+  description: Let's you easily load audio files, replace in game audio, send
+    audio over the network and log any audio playback into console.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
     patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -1087,13 +1067,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - no00ob-LCSoundTool-1.2.2
+    - no00ob-LCSoundTool-1.3.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 2
-    patch: 4
+    major: 2
+    minor: 1
+    patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Clementinise-CustomSounds\icon.png
@@ -1127,7 +1107,7 @@
   websiteUrl: https://thunderstore.io/c/lethal-company/p/PopleZoo/BetterItemScan/
   displayName: BetterItemScan
   description: Better Item Scan makes it easier to scan a group of items to see
-    the price of each of them listed aswell as their combined total. Now with a
+    the price of each of them listed as well as their combined total. Now with a
     built in smart quota calculator and UI adjustment
   gameVersion: "0"
   networkMode: both
@@ -1139,40 +1119,17 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 3
+    minor: 1
+    patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\PopleZoo-BetterItemScan\icon.png
-- manifestVersion: 1
-  name: Sligili-HDLethalCompany
-  authorName: Sligili
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/HDLethalCompany/
-  displayName: HDLethalCompany
-  description: Additional graphics settings such as resolution, anti-aliasing, fog
-    quality etc.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 3
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\Sligili-HDLethalCompany\icon.png
 - manifestVersion: 1
   name: Evaisa-LethalThings
   authorName: Evaisa
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/
   displayName: LethalThings
-  description: Adds 6 scrap, 5 store items, 1 enemy, 3 decor, 1 map hazard, and 1
+  description: Adds 7 scrap, 5 store items, 1 enemy, 3 decor, 1 map hazard, and 1
     game mechanic.
   gameVersion: "0"
   networkMode: both
@@ -1187,8 +1144,8 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 6
-    patch: 0
+    minor: 7
+    patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\Evaisa-LethalThings\icon.png
@@ -1243,7 +1200,7 @@
   authorName: Sligili
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/
   displayName: More_Emotes
-  description: Currently adds four more emotes (Custom keybinds supported)
+  description: "[v45/v40] Adds more emotes!!"
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1255,7 +1212,7 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
+    minor: 2
     patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -1278,7 +1235,7 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\sunnobunno-YippeeMod\icon.png
@@ -1293,12 +1250,13 @@
   packageType: other
   installMode: managed
   loaders: []
-  dependencies: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 4
+    minor: 5
     patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -1322,7 +1280,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\sunnobunno-BonkHitSFX\icon.png
@@ -1344,7 +1302,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\anormaltwig-TerminalExtras\icon.png
@@ -1361,12 +1319,11 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - 2018-LC_API-2.1.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
+    minor: 3
     patch: 0
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -1420,7 +1377,7 @@
   authorName: Hexnet111
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Hexnet111/SuitSaver/
   displayName: SuitSaver
-  description: A plugin for saving your last used suit.
+  description: A plugin for saving your last used suit. (Compatible with v45)
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1432,7 +1389,7 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
+    minor: 1
     patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
@@ -1456,7 +1413,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 5
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\amnsoft-EmployeeAssignments\icon.png
@@ -1544,7 +1501,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 0
+    patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\matsuura-HealthMetrics\icon.png
@@ -1584,13 +1541,12 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - 2018-LC_API-2.1.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
+    major: 2
     minor: 0
-    patch: 7
+    patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\RugbugRedfern-Skinwalkers\icon.png
@@ -1706,7 +1662,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\yeahimliam-Peter_Griffin_Suit\icon.png
@@ -1745,14 +1701,14 @@
   installMode: managed
   loaders: []
   dependencies:
+    - x753-More_Suits-1.3.3
     - BepInEx-BepInExPack-5.4.2100
-    - x753-More_Suits-1.3.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\ViViKo-AmongUsSuits\icon.png
@@ -1801,29 +1757,6 @@
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\alexanderjoe-BiggeryBattery\icon.png
 - manifestVersion: 1
-  name: ColtG5-CreepyBrackens
-  authorName: ColtG5
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/ColtG5/CreepyBrackens/
-  displayName: CreepyBrackens
-  description: Adds the fnaf foxy "Dum dum dum" audio to the Bracken whenever it
-    decides to hunt you.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\ColtG5-CreepyBrackens\icon.png
-- manifestVersion: 1
   name: SZAKI-RemoteRemastered
   authorName: SZAKI
   websiteUrl: https://thunderstore.io/c/lethal-company/p/SZAKI/RemoteRemastered/
@@ -1869,25 +1802,3 @@
   enabled: true
   icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
     Modpack\BepInEx\plugins\299792458-ScanForEnemies\icon.png
-- manifestVersion: 1
-  name: 5Bit-FPSSpectate
-  authorName: 5Bit
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/5Bit/FPSSpectate/
-  displayName: FPSSpectate
-  description: FPS spectator camera
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\rudy\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\MPCB
-    Modpack\BepInEx\plugins\5Bit-FPSSpectate\icon.png

@@ -1,7 +1,7 @@
 {
     "name": "LCBetterSaves",
-    "version_number": "1.4.0",
+    "version_number": "1.5.0",
     "website_url": "https://github.com/paul-merkamp/LCBetterSaves",
     "description": "Have as many saves as you want! (And rename them, too!)",
-    "dependencies": []
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
 }

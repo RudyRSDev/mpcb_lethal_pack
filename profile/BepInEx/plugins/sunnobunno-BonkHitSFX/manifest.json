@@ -1,6 +1,6 @@
 {
     "name": "BonkHitSFX",
-    "version_number": "1.0.3",
+    "version_number": "1.0.4",
 	"website_url": "",
     "description": "JAIL FOR YOU! Replaces the hitSFX of the shovel and other items to the BONK SFX.",
     "dependencies": [

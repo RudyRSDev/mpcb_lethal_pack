@@ -32,3 +32,5 @@ Other players will still appear to have a flashlight on their shoulder.
 # 1.4.4
 + Previously broke turning on the flashlight with left click. This has been fixed.
 + Fixed some cases where the flashlight mesh's active state was incorrect.
+# 1.4.5
++ Minor fixes.

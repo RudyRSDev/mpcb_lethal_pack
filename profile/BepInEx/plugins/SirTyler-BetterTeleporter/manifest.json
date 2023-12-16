@@ -1,6 +1,6 @@
 {
     "name": "BetterTeleporter",
-    "version_number": "1.0.0",
+    "version_number": "1.1.1",
     "website_url": "https://github.com/SirTyler/BetterTeleporter",
     "description": "Better Teleporters for Lethal Company.",
     "dependencies": [

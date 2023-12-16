@@ -7,8 +7,13 @@ It also transmits voice on the walkie-talkie for 2 seconds after death.
 
 It's my first mod for this game, so expect bugs.
 
+
+###### Version 1.0.3:
+Build for v45.
+
+
 ###### Version 1.0.2:
-Fixed "Silent After Death" bug. Prioritized mod over BiggerLobby to fix it.
+Fixed "Silent After Death" bug. Prioritized mod over the BiggerLobby to fix it.
 
 
 ###### Version 1.0.1:

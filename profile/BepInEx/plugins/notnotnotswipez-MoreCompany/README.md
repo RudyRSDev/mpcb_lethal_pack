@@ -2,7 +2,7 @@
 
 This mod is a lobby player count expansion mod. It increases the max player count.
 
-The mod is specifically designed for 8 players. Not every UI modification will properly accomodate for above 8 players.
+Not every UI modification will properly accomodate for above 8 players.
 
 # Release Trailer
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/yHxU4YrA8Ag/0.jpg)](http://www.youtube.com/watch?v=yHxU4YrA8Ag "More Company Launch Trailer")
@@ -36,11 +36,21 @@ This mod is not affiliated with BiggerLobby/LethalPlayers nor does it use any co
 
 ### ``Custom Cosmetic Installation``
 ```
-- Place .cosmetics files into the MoreCompanyCosmetics folder next to Lethal Company.exe.
+- Place .cosmetics files into the MoreCompanyCosmetics folder inside of the plugins folder.
 - The game needs to run at least once to generate this folder. 
 ```
 
 # Changelog
+## 1.7.2
+- Added 1 new cosmetic.
+- Players which have been taken over by the mask will now keep their cosmetics when they become masked.
+- Added the ability to spin the display guy in the cosmetic screen.
+- Fixed R2Modman/Thunderstore Mod Manager compatibility when installing custom .cosmetics files.
+
+## 1.7.1
+- Updated the mod to function with v45.
+- Moved cosmetic folder to plugins folder.
+
 ## 1.7.0
 - Made Cosmetic system dynamic
 
@@ -108,3 +118,4 @@ This mod is not affiliated with BiggerLobby/LethalPlayers nor does it use any co
 - jelly
 - SoulWithMae
 - Runnerdude127
+- Spuds

@@ -1,6 +1,6 @@
 {
   "name": "BepInUtils",
-  "version_number": "1.1.0",
+  "version_number": "1.2.0",
   "website_url": "",
   "description": "A library some of my mods depend on.",
   "dependencies": [

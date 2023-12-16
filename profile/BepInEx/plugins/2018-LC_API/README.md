@@ -70,6 +70,13 @@ Networking - Easily send data across the network to sync data between clients
 # Version 2.1.1
 - Actually fixed the BundleLodaer loading assets twice.
 
+# Version 2.1.2
+- Updated to game version 45.
 
+# Version 2.2.0
+- Added a command handler.
 
+- The bundle loader will only attempt to load actual bundles.
+
+- Added a temporary fix for lethal expansion bundles. Will be looking into a long term solution in the next update.
 

@@ -18,7 +18,7 @@ Enhance your Lethal Company experience with the Glowing Footsteps Mod! As a cont
 
 ## Compatibility
 
-This mod is compatible with [Lethal Company Version v40](https://steamcommunity.com/games/1966720/announcements/detail/3818550310803113740).
+This mod is compatible with [Lethal Company Version v45](https://store.steampowered.com/news/app/1966720/view/3898491924424950019).
 
 ## Feedback and Support
 
