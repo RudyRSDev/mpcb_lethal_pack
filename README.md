@@ -6,28 +6,22 @@
 - Select Game or Make it Default
 - Press `Import/Update`
 - Press `Import new profile`
-- Press `From code` and input `018c70d5-87b0-72dd-505f-80ed83a9e751`
+- Press `From code` and input `018d006e-0b2e-48e0-890d-972080d3c8ae`
 
 ### Mac
-- Use [Whiskey](https://github.com/Whisky-App/Whisky) to install Lethal Comapny
-- Locate the Game Files and install [BepInEx](https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/) manually
-- Run the game once to generate files
-- Clone the repository and move the files from BepInEx folder from the repo to the BepInEx game folder
-- Navigate the to plugins folder and delete Sligili-HDLethalCompany
+- Updating this section soon
 
 ## Extras
 ### Useful Keybinds
-- `F1` - `F6` for emotes
-- `1` - `*` for slots
 - `F` for flashlight toggle
 - `X` to talk into walkie
 - Hold `alt` to equip reserved slots, scroll to switch
+- `V` and `~` For Emote Wheels
 
 ### Host Controls
-- `ins` More Monsters Menu
+- 
 
 ### Chat Commands
-- `/bplay <link>` Add song to BoomBox, Youtube or Soundcloud
 - `/fov <#>` Change FOV from 66 to 130, better to change in config
 - `/toggleVisor` Removes visor, change config to save
 
@@ -39,5 +33,31 @@
 - If it doesnt update delete and import as if new
 
 ### Mac
-- Delete Contents of BepInEx Folder
-- Clone and move Plugins Folder
+- Updating Soon
+
+## Config Changes
+Lethal Presents
+- Spawn Chance: 25
+Lethal Things
+- Boomba Spawn Chance: 60
+- Hackertool Price: 30
+- Rocket Launcher: 150
+Brutal Company Plus
+- Turrent Terror: 0
+- Unfair Company: 0
+- The Hunger Games: 0
+- Ship Turret: 0
+- OutsideBox: 0
+- Shadow Realm: 50
+- surface Explosion: 0
+Lethal Expansion
+- ClockAlwayVisible: true
+- ConvertPoundsToKilograms: false
+- ShowMoonPriceInCatalogue: true
+- ShowMoonRankInCatalogue: true
+- ShowMoonWeatherCatalogue: true
+- GlobalTimeSpeedMultiplier: 1
+HotbarPlus
+- Hotkeys: false
+- OverrideHotbarHudSpacing: 5
+- HotbarSize: 6
