@@ -1,9 +1,0 @@
-{
-	"name": "TerminalExtras",
-	"version_number": "1.0.1",
-	"description": "Extra commands for the terminal.",
-	"website_url": "https://github.com/ANormalTwig/LC-TerminalExtras",
-	"dependencies": [
-		"BepInEx-BepInExPack-5.4.2100"
-	]
-}

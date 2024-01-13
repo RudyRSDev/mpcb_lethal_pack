@@ -1,9 +1,0 @@
-{
-    "name": "More_Emotes",
-    "version_number": "1.2.1",
-    "website_url": "https://www.youtube.com/watch?v=6Tojy7dDpqQ",
-    "description": "[v45/v40] Adds more emotes!!",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

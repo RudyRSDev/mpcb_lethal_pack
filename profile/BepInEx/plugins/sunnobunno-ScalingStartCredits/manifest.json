@@ -1,9 +1,0 @@
-{
-    "name": "ScalingStartCredits",
-    "version_number": "1.0.1",
-	"website_url": "https://github.com/sunnobunno/ScalingStartCredits",
-    "description": "Adds additional credits per person after starting the game on day 0",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

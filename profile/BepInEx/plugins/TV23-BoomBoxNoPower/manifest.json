@@ -1,9 +1,0 @@
-{
-  "name": "BoomBoxNoPower",
-  "version_number": "1.0.0",
-  "website_url": "https://www.instagram.com/tear.asunder/",
-  "description": "Boombox won't use energy anymore!",
-  "dependencies": [
-    "BepInEx-BepInExPack-5.4.2100"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-    "name": "MoreCompany",
-    "version_number": "1.7.2",
-    "website_url": "",
-    "description": "A stable lobby player count expansion mod. With cosmetics!",
-    "dependencies": [
-		"BepInEx-BepInExPack-5.4.2100"
-    ]
-}

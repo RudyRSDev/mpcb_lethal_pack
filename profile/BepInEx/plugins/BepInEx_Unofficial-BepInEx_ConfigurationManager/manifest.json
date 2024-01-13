@@ -1,9 +1,0 @@
-{
-	"name": "BepInEx_ConfigurationManager",
-	"version_number": "18.1.1",
-	"website_url": "https://github.com/BepInEx/BepInEx.ConfigurationManager",
-	"description": "Plugin configuration manager for BepInEx",
-	"dependencies": [
-		"BepInEx-BepInExPack-5.4.2100"
-	]
-}

@@ -1,9 +1,0 @@
-{
-  "name": "Brutal_Company_Plus",
-  "version_number": "3.4.0",
-  "website_url": "",
-  "description": "A customizable hardcore mod that randomizes events ranging between insanity and normal. (Based off Brutal Company By: 2018)",
-  "dependencies": [
-    "BepInEx-BepInExPack-5.4.2100"
-  ]
-}

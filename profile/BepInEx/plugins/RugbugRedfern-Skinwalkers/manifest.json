@@ -1,9 +1,0 @@
-{
-	"name": "Skinwalkers",
-	"version_number": "2.0.1",
-	"website_url": "https://rugbug.net/skinwalkers",
-	"description": "The monsters have learned how to mimic the voices of your friends.",
-	"dependencies": [
-		"BepInEx-BepInExPack-5.4.2100"
-	]
-}

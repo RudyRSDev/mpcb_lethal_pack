@@ -1,9 +1,0 @@
-{
-    "name": "SuitSaver",
-    "version_number": "1.1.2",
-    "website_url": "https://github.com/Hexnet111/SuitSaver",
-    "description": "A plugin for saving your last used suit. (Compatible with v45)",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

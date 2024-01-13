@@ -1,9 +1,0 @@
-{
-    "name": "BetterLadders",
-    "version_number": "1.2.2",
-    "website_url": "https://github.com/e3s1/BetterLadders",
-    "description": "Alter ladder speed and allow ladder usage with two-handed items",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}
