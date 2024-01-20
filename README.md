@@ -6,7 +6,7 @@
 - Select Game or Make it Default
 - Press `Import/Update`
 - Press `Import new profile`
-- Press `From code` and input `018d007f-865e-43f5-7342-3177a9426bdc`
+- Press `From code` and input `018d248b-ce5e-0a6b-b54f-1c7efe4ee887`
 
 ### Mac
 - Updating this section soon
